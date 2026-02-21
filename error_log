@@ -1,0 +1,31 @@
+[18-Jan-2025 18:06:40 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/dakhtwxq/public_html/vendor/composer/platform_check.php on line 24
+[18-Jan-2025 18:28:11 UTC] PHP Warning:  require(/home/dakhtwxq/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/dakhtwxq/public_html/index.php on line 13
+[18-Jan-2025 18:28:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dakhtwxq/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dakhtwxq/public_html/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dakhtwxq/public_html/index.php on line 13
+[18-Jan-2025 18:30:23 UTC] PHP Warning:  require(/home/dakhtwxq/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/dakhtwxq/public_html/index.php on line 13
+[18-Jan-2025 18:30:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dakhtwxq/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dakhtwxq/public_html/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dakhtwxq/public_html/index.php on line 13
+[18-Jan-2025 18:30:25 UTC] PHP Warning:  require(/home/dakhtwxq/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/dakhtwxq/public_html/index.php on line 13
+[18-Jan-2025 18:30:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dakhtwxq/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dakhtwxq/public_html/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dakhtwxq/public_html/index.php on line 13
+[18-Jan-2025 18:30:28 UTC] PHP Warning:  require(/home/dakhtwxq/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/dakhtwxq/public_html/index.php on line 13
+[18-Jan-2025 18:30:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dakhtwxq/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dakhtwxq/public_html/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dakhtwxq/public_html/index.php on line 13
+[18-Jan-2025 18:30:29 UTC] PHP Warning:  require(/home/dakhtwxq/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/dakhtwxq/public_html/index.php on line 13
+[18-Jan-2025 18:30:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dakhtwxq/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dakhtwxq/public_html/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dakhtwxq/public_html/index.php on line 13
+[18-Jan-2025 18:30:40 UTC] PHP Warning:  require(/home/dakhtwxq/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/dakhtwxq/public_html/index.php on line 13
+[18-Jan-2025 18:30:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dakhtwxq/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dakhtwxq/public_html/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dakhtwxq/public_html/index.php on line 13

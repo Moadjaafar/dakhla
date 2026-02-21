@@ -1,0 +1,57 @@
+{
+  "public/assets/fonts/Bahnschrift/BAHNSCHRIFT.TTF": {
+    "file": "assets/BAHNSCHRIFT-CjJzUn5W.TTF",
+    "src": "public/assets/fonts/Bahnschrift/BAHNSCHRIFT.TTF"
+  },
+  "public/assets/fonts/Bahnschrift/BAHNSCHRIFT.otf": {
+    "file": "assets/BAHNSCHRIFT-BIxTPEFI.otf",
+    "src": "public/assets/fonts/Bahnschrift/BAHNSCHRIFT.otf"
+  },
+  "public/assets/fonts/Bahnschrift/BAHNSCHRIFT.woff": {
+    "file": "assets/BAHNSCHRIFT-CusBRaDr.woff",
+    "src": "public/assets/fonts/Bahnschrift/BAHNSCHRIFT.woff"
+  },
+  "public/assets/fonts/Bahnschrift/BAHNSCHRIFT.woff2": {
+    "file": "assets/BAHNSCHRIFT-Bqrd3fLb.woff2",
+    "src": "public/assets/fonts/Bahnschrift/BAHNSCHRIFT.woff2"
+  },
+  "public/assets/images/BGstars.png": {
+    "file": "assets/BGstars-jSDH4zOQ.png",
+    "src": "public/assets/images/BGstars.png"
+  },
+  "public/assets/images/bg_blog.png": {
+    "file": "assets/bg_blog-B0MtsZ91.png",
+    "src": "public/assets/images/bg_blog.png"
+  },
+  "public/assets/images/bg_hero.jpg": {
+    "file": "assets/bg_hero-DAyDK4xN.jpg",
+    "src": "public/assets/images/bg_hero.jpg"
+  },
+  "public/assets/images/bg_sea.png": {
+    "file": "assets/bg_sea-D8Rz_0px.png",
+    "src": "public/assets/images/bg_sea.png"
+  },
+  "public/assets/images/card1.png": {
+    "file": "assets/card1-DwQ2_WyB.png",
+    "src": "public/assets/images/card1.png"
+  },
+  "public/assets/images/readcump.jpg": {
+    "file": "assets/readcump-DNVSAdcp.jpg",
+    "src": "public/assets/images/readcump.jpg"
+  },
+  "public/assets/images/sahara_bg.png": {
+    "file": "assets/sahara_bg-DYVRB1ic.png",
+    "src": "public/assets/images/sahara_bg.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-dW9Xabwu.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CD1XehMl.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}

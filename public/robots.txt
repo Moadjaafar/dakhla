@@ -1,0 +1,20 @@
+# Global settings
+User-agent: *
+
+# Allow crawling of all public pages
+Allow: /
+
+# Block sensitive or unnecessary routes
+Disallow: /reservation
+Disallow: /reservation-send
+
+# Ensure locale routes are accessible for crawling
+Allow: /local/en
+Allow: /local/fr
+Allow: /local/es
+
+# Block dynamic or private query parameters
+Disallow: /*?lang=
+
+# Sitemap location
+Sitemap: https://dakhlabeyondadventure.com/sitemap.xml
