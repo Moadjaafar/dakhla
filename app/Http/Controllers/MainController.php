@@ -58,6 +58,21 @@ class MainController extends Controller
     {
         return view('offers.surf_sessions_dakhla');
     }
+
+    public function nuitDesertBivouacImlili()
+    {
+        return view('offers.nuit_desert_bivouac_imlili');
+    }
+
+    public function sejourDesertDakhlaExperience()
+    {
+        return view('offers.sejour_desert_dakhla_experience');
+    }
+
+    public function whiteDuneSunsetTour()
+    {
+        return view('offers.white_dune_sunset_tour');
+    }
     public function resevation_form(Request $request)
     {
         // Validate the inputs
@@ -81,6 +96,7 @@ class MainController extends Controller
             'last_name' => 'required|string|max:255',
             'email' => 'required|email',
             'phone' => 'required|string|max:15',
+            'country' => 'nullable|string|max:255',
             'name' => 'required|string',
             'prix' => 'required|numeric',
             'img_src' => 'required|string',
@@ -96,6 +112,7 @@ class MainController extends Controller
             'last_name' => $validatedData['last_name'],
             'email' => $validatedData['email'],
             'phone' => $validatedData['phone'],
+            'country' => $validatedData['country'] ?? '',
             'name' => $validatedData['name'],
             'prix' => $prix,  // Use the updated value of prix
             'img_src' => $validatedData['img_src'],

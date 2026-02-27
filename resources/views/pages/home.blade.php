@@ -112,49 +112,58 @@
             </div>
         </div>
     </section>
-    <section class="col_items py-5">
+    <section class="activities_section py-5">
         <div class="container">
-            <div class="section_header d-lg-flex d-md-flex d-block align-items-center justify-content-between">
-                <h2 class="cr_color p_max_xl">{{ __('messages.title3') }}</h2>
-                <p class="cr_black p_max_md">{{ __('messages.breaf3_1') }}</p>
+            <div class="d-flex align-items-center justify-content-between mb-4">
+                <h2 class="cr_color p_max_xl m-0">{{ __('messages.title3') }}</h2>
+                <div class="d-flex align-items-center gap-3">
+                    <button class="swipe_btnn left prev_activity_slide" aria-label="previous"><img src="assets/images/swipleft.svg" alt="previous"></button>
+                    <button class="swipe_btnn right next_activity_slide" aria-label="next"><img src="assets/images/swipright.svg" alt="next"></button>
+                </div>
             </div>
-            <div class="row mt-5">
-                <div class="col-lg-3 col-md-6 col-12 mb-3">
-                    <div class="col_card">
-                        <img src="assets/images/logo_notxt.svg" alt="dakhla beyond adventure">
-                        <p>{{ __('messages.col_1') }}
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-12 mb-3">
-                    <div class="col_card">
-                        <img src="assets/images/logo_notxt.svg" alt="next">
-                        <p>{{ __('messages.col_2') }}
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-12 mb-3">
-                    <div class="col_card_lg">
-                        <div >
-                            <img src="assets/images/logo_notxt.svg" alt="next">
-                        </div>
-                        <div class="div_border">
-                            <p>{{ __('messages.col_3') }}
-                            </p>
-                            <a href="{{ route('offers_lits') }}" class="me-auto ms-auto ms-sm-0 custom-button custom-buttonv2 custom-m px-sm-3" tabindex="0">
-                                <p class="m-0">{{ __('messages.book_btn') }}</p>
-                                <span class="custom-arrow position-relative ">
-                                    <svg class="arr1 position-absolute" xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none">
-                                        <path d="M12.1425 8.71411L15.8567 4.99983L12.1425 1.28554" stroke="white" stroke-width="1.39286" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    </svg>
-                                    <svg class="arr2 position-absolute" xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none">
-                                        <path d="M12.1425 8.71411L15.8567 4.99983L12.1425 1.28554" stroke="white" stroke-width="1.39286" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    </svg>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div class="swiper activities_swiper">
+            <div class="swiper-wrapper">
+                <a class="swiper-slide activity_slide activity_slide--video" data-fancybox="experience" data-caption="Dakhla Experience" href="assets/images/experince1.mp4">
+                    <video src="assets/images/experince1.mp4" muted loop playsinline autoplay></video>
+                    <span class="activity_label">Dakhla Experience</span>
+                </a>
+                <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 2" href="assets/images/experince2.jpeg">
+                    <img src="assets/images/experince2.jpeg" alt="Experience 2">
+                    <span class="activity_label">Experience</span>
+                </a>
+                <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 3" href="assets/images/experince3.jpeg">
+                    <img src="assets/images/experince3.jpeg" alt="Experience 3">
+                    <span class="activity_label">Experience</span>
+                </a>
+                <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 4" href="assets/images/experince4.jpeg">
+                    <img src="assets/images/experince4.jpeg" alt="Experience 4">
+                    <span class="activity_label">Experience</span>
+                </a>
+                <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 5" href="assets/images/experince5.jpeg">
+                    <img src="assets/images/experince5.jpeg" alt="Experience 5">
+                    <span class="activity_label">Experience</span>
+                </a>
+                <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 6" href="assets/images/experince6.jpeg">
+                    <img src="assets/images/experince6.jpeg" alt="Experience 6">
+                    <span class="activity_label">Experience</span>
+                </a>
+                <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 7" href="assets/images/experince7.jpeg">
+                    <img src="assets/images/experince7.jpeg" alt="Experience 7">
+                    <span class="activity_label">Experience</span>
+                </a>
+                <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 8" href="assets/images/experince8.jpeg">
+                    <img src="assets/images/experince8.jpeg" alt="Experience 8">
+                    <span class="activity_label">Experience</span>
+                </a>
+                <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 9" href="assets/images/experince9.jpeg">
+                    <img src="assets/images/experince9.jpeg" alt="Experience 9">
+                    <span class="activity_label">Experience</span>
+                </a>
+                <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 10" href="assets/images/experince10.jpeg">
+                    <img src="assets/images/experince10.jpeg" alt="Experience 10">
+                    <span class="activity_label">Experience</span>
+                </a>
             </div>
         </div>
     </section>
@@ -173,7 +182,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.surf_sessions') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/offer_swip1.png" alt="Explorez les vagues de Dakhla avec nos sessions de surf sur-mesure">
+                        <img src="assets/images/offer7.png" alt="Explorez les vagues de Dakhla avec nos sessions de surf sur-mesure">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_0c8e140b4cb5e4c9bd793446d8a296e4') }}</h3>
                             <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -184,7 +193,7 @@
                 </div>
                 <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.dakhla_4x4') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/offer_swip2.png" alt="Excursion d'une Journée à Dakhla en 4x4">
+                        <img src="assets/images/offer.png" alt="Excursion d'une JournÃ©e Ã  Dakhla en 4x4">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_5ecf541d66dad225d2e0a60f7ca4a0ef') }}</h3>
                             <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -193,21 +202,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.aarich_village_sahraoui') }}'" style="cursor: pointer;">
-                    <div class="card_shara">
-                        <img src="assets/images/offer_swip3.png" alt="Excursion d'une Journée à Aarich et au Village Sahraoui Dakhla">
-                        <div class="card_content px-4 py-4">
-                            <h3>{{ __('messages.key_45006e6e013626bcd989e81c14e50485') }}
-                            </h3>
-                            <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
-                            </p>
-                            <a href="{{ route('offer.aarich_village_sahraoui') }}">{{ __('messages.key_fc46f6383e012278263fd788d9b198ad') }}</a>
-                        </div>
-                    </div>
-                </div>
                 <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.catamaran_grande_baie') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/offer_swip4.png" alt="VOYAGE EN CATAMARAN DANS LA GRANDE BAIE DE DAKHLA">
+                        <img src="assets/images/offer4.png" alt="VOYAGE EN CATAMARAN DANS LA GRANDE BAIE DE DAKHLA">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_4adf7da9ac4f0c09bf49f129b833b4c3') }}
                             </h3>
@@ -219,7 +216,7 @@
                 </div>
                 <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.dos_chameau_desert') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/offer_swip5.png" alt="Balade à dos de chameau dans le désert de Dakhla">
+                        <img src="assets/images/experince81.jpeg" alt="Balade Ã  dos de chameau dans le dÃ©sert de Dakhla">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_780886d385ed8cd3408f9134231e6340') }}
                             </h3>
@@ -231,7 +228,7 @@
                 </div>
                 <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.quad_desert') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/offer_swip6.png" alt="Excursion en Quad dans le Désert de Dakhla">
+                        <img src="assets/images/experince5.jpeg" alt="Excursion en Quad dans le DÃ©sert de Dakhla">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_e380a8ce82dc9aeee8d9a27c779e4eb7') }}
                             </h3>
@@ -243,12 +240,45 @@
                 </div>
                 <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.brochure_demi_journee') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/card_1.png" alt="Brochure d’Excursion - Demi-Journée avec Voiture 4x4 et Chauffeur-Guide">
+                        <img src="assets/images/excursion-dakhla-4x4_4.jpeg" alt="Brochure d'Excursion - Demi-JournÃ©e avec Voiture 4x4 et Chauffeur-Guide">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_a875c9c7071da4dc558aab956480c224') }}</h3>
                             <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
                             </p>
                             <a href="{{ route('offer.brochure_demi_journee') }}">{{ __('messages.key_fc46f6383e012278263fd788d9b198ad') }}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.bivouac_imlili') }}'" style="cursor: pointer;">
+                    <div class="card_shara">
+                        <img src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" alt="Nuit DÃ©sert Dakhla â€“ Bivouac Imlili">
+                        <div class="card_content px-4 py-4">
+                            <h3>{{ __('messages.bivouac_breadcrumb') }}</h3>
+                            <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
+                            </p>
+                            <a href="{{ route('offer.bivouac_imlili') }}">{{ __('messages.key_fc46f6383e012278263fd788d9b198ad') }}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.sejour_desert') }}'" style="cursor: pointer;">
+                    <div class="card_shara">
+                        <img src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" alt="SÃ©jour DÃ©sert Dakhla Experience">
+                        <div class="card_content px-4 py-4">
+                            <h3>{{ __('messages.sejour_breadcrumb') }}</h3>
+                            <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
+                            </p>
+                            <a href="{{ route('offer.sejour_desert') }}">{{ __('messages.key_fc46f6383e012278263fd788d9b198ad') }}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.white_dune_sunset') }}'" style="cursor: pointer;">
+                    <div class="card_shara">
+                        <img src="assets/images/excursion-dakhla-4x4_4.jpeg" alt="White Dune Dakhla Sunset Tour">
+                        <div class="card_content px-4 py-4">
+                            <h3>{{ __('messages.whitedune_breadcrumb') }}</h3>
+                            <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
+                            </p>
+                            <a href="{{ route('offer.white_dune_sunset') }}">{{ __('messages.key_fc46f6383e012278263fd788d9b198ad') }}</a>
                         </div>
                     </div>
                 </div>
@@ -372,7 +402,7 @@
                                         <span>25/01/2025</span>
                                     </div>
                                     <div class="news__post--vedio">
-                                        <img src="assets/images/blog_three.png" alt="Dakhla Beyond Adventure : Tour en Quad dans le Désert de Dakhla">
+                                        <img src="assets/images/blog_three.png" alt="Dakhla Beyond Adventure : Tour en Quad dans le Dï¿½sert de Dakhla">
                                     </div>
                                 </div>
                             </div>
@@ -392,7 +422,7 @@
                                         <span>08/02/2025</span>
                                     </div>
                                     <div class="news__post--vedio">
-                                        <img src="assets/images/blog4.jpeg" alt="Dakhla Beyond Adventure : Tour en Quad dans le Désert de Dakhla">
+                                        <img src="assets/images/blog4.jpeg" alt="Dakhla Beyond Adventure : Tour en Quad dans le Dï¿½sert de Dakhla">
                                     </div>
                                 </div>
                             </div>

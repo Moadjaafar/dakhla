@@ -3,6 +3,7 @@
 // lang/es/messages.php
  
 return [
+    'note_repas_non_inclus' => 'Nota: Las comidas no están incluidas en el precio de la excursión.',
     'hero_title' => 'Aventuras Inolvidables en el Sahara',
     'hero_title_span' => 'en Dakhla.',
     'hero_title_paragraphe' => "Descubre el Sahara de Dakhla con paseos en camello, dunas y campamentos estrellados. ¡Reserva hoy tu aventura!",
@@ -18,9 +19,9 @@ return [
     'col_1' => "Recorre las dunas en camello con guías expertos que te mostrarán la belleza del desierto.",
     'col_2' => "Siente la emoción del sandboard en las imponentes dunas, ideal para los amantes de la aventura.",
     'col_3' => "Pasa una noche bajo las estrellas en un campamento cómodo con deliciosa comida y calidez.",
-    'Dakhla_Beyond_Adventure' => "Dakhla Beyond Adventure",
-    'Experience_Unmatched_Sahara_Adventures_in_Dakhla' => "Vive Aventuras Inigualables en el Sahara de Dakhla",
-    'paragraphe1' => "En Dakhla Beyond Adventure ofrecemos experiencias inolvidables en el corazón del Sahara. Desde paseos en camello hasta campamentos bajo las estrellas, nuestras excursiones combinan aventura y relax. Descubre paisajes asombrosos y la cultura de Dakhla.",
+    'Dakhla_Beyond_Adventure' => "Conoce a Tu Guía",
+    'Experience_Unmatched_Sahara_Adventures_in_Dakhla' => "Laarbi Elbaze, Tu Experto Local en Dakhla",
+    'paragraphe1' => "Nacido y criado en Dakhla, Laarbi Elbaze es el fundador de Dakhla Beyond Adventure y un guía turístico experimentado que conoce cada rincón de esta impresionante región. Con años de pasión por compartir la belleza del Sahara, Laarbi ofrece experiencias auténticas e inolvidables — desde emocionantes excursiones en 4x4 por el desierto hasta paseos en camello por las dunas doradas. Su profundo conocimiento de la cultura local, los tesoros escondidos y los paisajes deslumbrantes hace que cada aventura sea verdaderamente única. Con Laarbi como guía, no solo visitas Dakhla — la vives.",
     'paragraphe2' => "Aventuras Inolvidables en el Sahara de Dakhla",
     'paragraphe3' => "Explora el Sahara de Dakhla con paseos en camello, dunas y campamentos estrellados para una aventura inolvidable.",
     'Contact_us' => "Contáctanos",
@@ -167,6 +168,13 @@ return [
     "key_a583a896af48248fceaefb63c3924794" => <<<TEXT
     Nuestro amable equipo le recibirá en la base, le explicará el circuito y las instrucciones de seguridad, luego abordará el catamarán y comenzará la experiencia descubriendo la bahía de Dakhla. El capitán le invitará a aprender a navegar con el catamarán. Al llegar a la Isla del Dragón, desembarcará para explorar esta isla salvaje, habitada por flamencos rosados y otras aves migratorias. Podrá nadar o escalar hasta la cima para disfrutar de una vista impresionante de toda la isla. Al regresar al catamarán, el equipo le ofrecerá un aperitivo de frutas, pan, pastel y bebidas frías y calientes. En el trayecto, podrá ver a los delfines acercarse al catamarán para jugar (según el clima).
     TEXT,
+    "catamaran_cancel_title" => "Nota Amistosa: Política de Cancelación – Excursión en Catamarán",
+    "catamaran_cancel_1" => "El último plazo para cancelar sin penalización es antes de las 20:00 del día anterior a la excursión.",
+    "catamaran_cancel_2" => "En caso de cancelación tardía o no presentación, se cobrará el monto total, a menos que podamos encontrar otro cliente para ocupar el lugar.",
+    "catamaran_cancel_3" => "Durante la temporada alta y las vacaciones escolares, a veces operamos con una lista de espera.",
+    "catamaran_cancel_4" => "Una comunicación rápida de su parte en caso de cancelación nos permite organizar mejor y ofrecer la excursión a otros huéspedes.",
+    "catamaran_cancel_sailing" => "Ofrecemos aventuras en velero con una visita a la isla (no es un crucero clásico). Si las condiciones climáticas no son favorables, cancelaremos la excursión y recibirá un reembolso completo.",
+    "catamaran_cancel_thanks" => "Gracias por su comprensión y cooperación.",
     "key_884ba3386547c7dd63c0179da6c107ab" => <<<TEXT
         Tarifas
     TEXT,
@@ -276,16 +284,16 @@ return [
     Almuerzo en el Restaurante Talh el Hamar
     TEXT,
     "key_5c777b43b7c2254eaf29c6eb4b023e5e" => <<<TEXT
-    13:00 horas
+    16:00 horas
     TEXT,
     "key_651b7f11815372708ff1604f224fdcaa" => <<<TEXT
-    Haga una pausa gourmet en el Restaurante Talh el Hamar, un lugar cálido y auténtico donde le espera una comida deliciosa. Descubra las especialidades locales y disfrute de productos frescos y sabores saharianos.
+    Haga una pausa gourmet en el Restaurante Talh el Hamar, un lugar cálido y auténtico donde le espera una comida deliciosa. Descubra las especialidades locales y disfrute de productos frescos y sabores saharianos. (Nota: Las comidas no están incluidas en el precio de la excursión.)
     TEXT,
     "key_9e6f15efc47128ff6ab2fadfe66c1971" => <<<TEXT
     Regreso a Dakhla
     TEXT,
     "key_8ce92cfbc084e5195e29d907aba8d24c" => <<<TEXT
-    17:00
+    18:00
     TEXT,
     "key_adf555e90df77c268351a1bfc237faf6" => <<<TEXT
     Después de un día lleno de emociones y descubrimientos, regreso a Dakhla a bordo de su 4x4, con recuerdos en la cabeza y fotos memorables en su cámara.
@@ -620,6 +628,79 @@ Tu aventura comienza con una cálida bienvenida. Tu chófer-guía te recogerá d
     'blog_breaf3' => "Dakhla Beyond Adventure: Tour en Quad en el Desierto de Dakhla",
             'blog_title4' => "Article 4",
 
+    // Bivouac Imlili - Noche Desierto Dakhla
+    'bivouac_breadcrumb' => 'Noche Desierto Dakhla – Bivouac Imlili',
+    'bivouac_title' => 'Vive una noche mágica en el desierto de Dakhla',
+    'bivouac_description' => '¿Buscas una noche auténtica e inolvidable en el desierto de Dakhla? Nuestro bivouac en Imlili te ofrece una verdadera experiencia sahariana, entre dunas doradas, silencio absoluto y un espectacular cielo estrellado. A solo unos kilómetros de Dakhla, la Sebkha de Imlili es un sitio natural único, conocido por sus piscinas naturales en el corazón del desierto. Es el lugar perfecto para una inmersión sahariana lejos de las multitudes.',
+    'bivouac_program' => 'Programa – Bivouac Imlili (1 noche)',
+    'bivouac_location' => 'Sebkha de Imlili, Dakhla',
+    'bivouac_duration' => '1 noche / 2 días',
+    'bivouac_transport' => 'Vehículo 4x4 con conductor-guía',
+
+    'bivouac_step1_title' => 'Salida de Dakhla en 4x4',
+    'bivouac_step1_time' => '16:00',
+    'bivouac_step1_desc' => 'Traslado en vehículo 4x4 cómodo hacia la Sebkha de Imlili, a través de los paisajes salvajes del desierto marroquí.',
+
+    'bivouac_step2_title' => 'Puesta de sol en el desierto',
+    'bivouac_step2_desc' => 'Llegada al bivouac a última hora de la tarde para admirar una puesta de sol excepcional sobre las dunas. La luz del Sahara transforma el paisaje en un escenario mágico – un momento perfecto para fotos.',
+
+    'bivouac_step3_title' => 'Instalación en el Bivouac Imlili',
+    'bivouac_step3_desc' => 'Acomódese en tiendas saharianas preparadas para una noche confortable en plena naturaleza. Ambiente sencillo, cálido y auténtico.',
+
+    'bivouac_step4_title' => 'Velada sahariana tradicional',
+    'bivouac_step4_desc' => 'Cena marroquí tradicional preparada en el lugar, fogata en el desierto, ceremonia del té sahariano y observación de un cielo estrellado excepcional. Lejos de toda contaminación lumínica, el desierto de Dakhla ofrece uno de los cielos nocturnos más hermosos de Marruecos.',
+
+    'bivouac_step5_title' => 'Amanecer y desayuno',
+    'bivouac_step5_desc' => 'Despertar temprano para admirar el amanecer sobre la Sebkha de Imlili. Desayuno servido en el bivouac antes de la salida.',
+
+    'bivouac_step6_title' => 'Regreso a Dakhla',
+    'bivouac_step6_desc' => 'Regreso en 4x4 después del desayuno.',
+
+    'bivouac_why_title' => '¿Por qué elegir nuestra Noche Desierto Dakhla?',
+    'bivouac_why_list' => 'Experiencia auténtica en el desierto marroquí • Bivouac exclusivo en Imlili • Ideal para parejas, viajeros y amantes de la naturaleza • Organización profesional por Dakhla Beyond Adventure',
+
+    'bivouac_info_title' => 'Información importante',
+    'bivouac_info_desc' => 'No hay duchas ni baños en el lugar. Se trata de una experiencia 100% naturaleza. El bivouac está preparado de manera sencilla y confortable.',
+
+    'bivouac_price' => 'Precio bajo consulta',
+    'bivouac_offer_brief' => 'Vive una noche mágica en el corazón del desierto de Dakhla. Bivouac en Imlili, puesta de sol, cena tradicional y cielo estrellado.',
+
+    // Estancia Desierto – Dakhla Experience (3 días)
+    'sejour_breadcrumb' => 'Estancia Desierto – Dakhla Experience',
+    'sejour_title' => 'Vive la aventura sahariana definitiva en 3 días',
+    'sejour_description' => 'Embárcate en una estancia inolvidable de 3 días en el desierto de Dakhla. Desde la Sebkha de Imlili hasta la legendaria Duna Blanca, pasando por la playa salvaje de Porto Rico y el Secret Spot, esta experiencia te sumerge en el corazón del Sahara marroquí. Bivouacs bajo las estrellas, cenas tradicionales, paisajes impresionantes – una aventura auténtica y única.',
+    'sejour_program' => 'Programa – Estancia Desierto (3 días / 2 noches)',
+    'sejour_location' => 'Imlili, Porto Rico, Duna Blanca',
+    'sejour_duration' => '3 días / 2 noches',
+    'sejour_transport' => 'Vehículo 4x4 con conductor-guía',
+
+    'sejour_jour1_title' => 'Día 1 – Noche en Imlili (Sebkha)',
+    'sejour_jour1_time' => '16:00',
+    'sejour_jour1_desc' => 'Salida de Dakhla hacia las 16:00 en 4x4 en dirección a la Sebkha de Imlili, un sitio natural salvaje y preservado. Llegada al atardecer para disfrutar de los paisajes y la atmósfera mágica del desierto. Instalación en el bivouac con tiendas preparadas para una noche confortable. Cena tradicional, fogata y ceremonia del té sahariano bajo las estrellas. Noche tranquila en el corazón del desierto. Baños básicos disponibles en el lugar (sin ducha).',
+
+    'sejour_jour2_title' => 'Día 2 – Imlili & Porto Rico → Secret Spot (Duna Blanca)',
+    'sejour_jour2_desc' => 'Despertar temprano y desayuno en el bivouac. Visita de la Sebkha y las piscinas naturales de Imlili, un sitio único e icónico de la región. Continuación hacia la playa de Porto Rico, conocida por su arena blanca y paisaje salvaje. Por la tarde, salida en 4x4 hacia el bivouac Secret Spot, situado frente a la Duna Blanca. Instalación en un entorno natural excepcional, ideal para la relajación y desconexión. Puesta de sol frente a la duna. Cena bajo las estrellas en un ambiente tranquilo y auténtico. Ducha y baños disponibles en el lugar para mayor comodidad. Noche mágica en el Secret Spot.',
+
+    'sejour_jour3_title' => 'Día 3 – Duna Blanca y regreso a Dakhla',
+    'sejour_jour3_desc' => 'Desayuno en el bivouac. Visita de la Duna Blanca y tiempo libre para disfrutar del sitio. Regreso tranquilo a Dakhla a final de la mañana / principio de la tarde.',
+
+    'sejour_price' => 'Precio bajo consulta',
+    'sejour_offer_brief' => 'Estancia de 3 días en el desierto de Dakhla: Imlili, Porto Rico, Duna Blanca. Bivouacs bajo las estrellas, cenas tradicionales y paisajes inolvidables.',
+
+    // White Dune Sunset Tour
+    'whitedune_breadcrumb' => 'White Dune Dakhla – Sunset Tour',
+    'whitedune_title' => 'White Dune Dakhla Sunset Tour – Excursión Privada en 4x4',
+    'whitedune_program' => 'Programa – Sunset Tour Duna Blanca',
+    'whitedune_description' => 'Descubra una de las experiencias más emblemáticas de Marruecos con nuestro tour al atardecer de la Duna Blanca en Dakhla. Salida a las 16:00 en un cómodo 4x4 para un viaje mágico a través de la laguna. Esta excursión privada en 4x4 en Dakhla le lleva a la famosa Duna Blanca, una maravilla natural que se eleva en medio de la laguna.',
+    'whitedune_location' => 'Laguna de Dakhla / Duna Blanca',
+    'whitedune_duration' => 'Salida 16:00 – Regreso después del atardecer',
+    'whitedune_transport' => '4x4 Privado',
+    'whitedune_group' => 'Hasta 4 personas por grupo',
+    'whitedune_details_title' => 'Qué esperar',
+    'whitedune_details_desc' => 'Suba a la cima para disfrutar de vistas panorámicas, camine descalzo sobre la arena suave y disfrute de un atardecer inolvidable sobre Dakhla. Los colores del cielo reflejándose en el agua crean una atmósfera impresionante – perfecto para parejas, familias y amantes de la fotografía. Regreso después del atardecer.',
+    'whitedune_note' => 'Tour privado – flexible y cómodo. Reserve su experiencia de atardecer en la Duna Blanca de Dakhla y disfrute de uno de los mejores tours de la laguna desértica de Dakhla.',
+    'whitedune_price' => '80 € / grupo',
+    'whitedune_offer_brief' => 'Excursión privada en 4x4 a la Duna Blanca al atardecer. Vistas panorámicas, arena suave y atmósfera mágica sobre la laguna de Dakhla.',
 
 ];
 ?>

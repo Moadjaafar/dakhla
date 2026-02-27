@@ -38,7 +38,7 @@
             <div class="offer__iteme  p-lg-5 p-md-5 p-4 mb-5 ">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/offer2.png" class="offer_img" alt="Brochure d’Excursion - Demi-Journée avec Voiture 4x4 et Chauffeur-Guide Dakhla">
+                        <img src="assets/images/excursion-dakhla-4x4_4.jpeg" class="offer_img" alt="Brochure d’Excursion - Demi-Journée avec Voiture 4x4 et Chauffeur-Guide Dakhla">
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mt-4  d-flex align-items-center">
                         <div>
@@ -60,33 +60,6 @@
                                 </a>
                             </div>
                         </div> 
-                    </div>
-                </div>
-            </div>
-            <div class="offer__iteme  p-lg-5 p-md-5 p-4 mb-5 ">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mb-4 d-flex align-items-center">
-                        <div>
-                            <h2>Excursion d'une Journée à Aarich et au Village Sahraoui                                </h2>
-                            <p class="offer_breaf">Une aventure unique entre mer et désert, à la découverte des trésors cachés de Dakhla !
-                            </p>
-                            <div>
-                                <a href="{{ route('offer.aarich_village_sahraoui') }}" class="me-auto ms-auto ms-sm-0 custom-button custom-m px-sm-3" tabindex="0">
-                                    <p class="m-0">Book now</p>
-                                    <span class="custom-arrow position-relative ">
-                                        <svg class="arr1 position-absolute" xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none">
-                                            <path d="M12.1425 8.71411L15.8567 4.99983L12.1425 1.28554" stroke="white" stroke-width="1.39286" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        </svg>
-                                        <svg class="arr2 position-absolute" xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none">
-                                            <path d="M12.1425 8.71411L15.8567 4.99983L12.1425 1.28554" stroke="white" stroke-width="1.39286" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/offer3.png" class="offer_img" alt="Excursion d'une Journée à Aarich et au Village Sahraoui dakhla">
                     </div>
                 </div>
             </div>
@@ -141,14 +114,14 @@
                         </div> 
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/offer5.png" class="offer_img" alt="Balade à dos de chameau dans le désert de Dakhla">
+                        <img src="assets/images/experince81.jpeg" class="offer_img" alt="Balade à dos de chameau dans le désert de Dakhla">
                     </div>
                 </div>
             </div>
             <div class="offer__iteme  p-lg-5 p-md-5 p-4 mb-5 ">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/offer6.png" class="offer_img" alt="Excursion en Quad dans le Désert de Dakhla">
+                        <img src="assets/images/experince5.jpeg" class="offer_img" alt="Excursion en Quad dans le Désert de Dakhla">
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mt-4 d-flex align-items-center">
                         <div>
@@ -198,6 +171,87 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
                         <img src="assets/images/offer7.png" class="offer_img" alt="Explorez les vagues de Dakhla avec nos sessions de surf sur-mesure">
+                    </div>
+                </div>
+            </div>
+            <div class="offer__iteme  p-lg-5 p-md-5 p-4 mb-5 ">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
+                        <img src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" class="offer_img" alt="Nuit Désert Dakhla – Bivouac Imlili">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mt-4 d-flex align-items-center">
+                        <div>
+                            <h2>{{ __('messages.bivouac_breadcrumb') }}</h2>
+                            <p class="offer_breaf">{{ __('messages.bivouac_offer_brief') }}
+                            </p>
+                            <div>
+                                <a href="{{ route('offer.bivouac_imlili') }}" class="me-auto ms-auto ms-sm-0 custom-button custom-m px-sm-3" tabindex="0">
+                                    <p class="m-0">Book now</p>
+                                    <span class="custom-arrow position-relative ">
+                                        <svg class="arr1 position-absolute" xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none">
+                                            <path d="M12.1425 8.71411L15.8567 4.99983L12.1425 1.28554" stroke="white" stroke-width="1.39286" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                        <svg class="arr2 position-absolute" xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none">
+                                            <path d="M12.1425 8.71411L15.8567 4.99983L12.1425 1.28554" stroke="white" stroke-width="1.39286" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offer__iteme  p-lg-5 p-md-5 p-4 mb-5 ">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mb-4 d-flex align-items-center">
+                        <div>
+                            <h2>{{ __('messages.sejour_breadcrumb') }}</h2>
+                            <p class="offer_breaf">{{ __('messages.sejour_description') }}
+                            </p>
+                            <div>
+                                <a href="{{ route('offer.sejour_desert') }}" class="me-auto ms-auto ms-sm-0 custom-button custom-m px-sm-3" tabindex="0">
+                                    <p class="m-0">Book now</p>
+                                    <span class="custom-arrow position-relative ">
+                                        <svg class="arr1 position-absolute" xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none">
+                                            <path d="M12.1425 8.71411L15.8567 4.99983L12.1425 1.28554" stroke="white" stroke-width="1.39286" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                        <svg class="arr2 position-absolute" xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none">
+                                            <path d="M12.1425 8.71411L15.8567 4.99983L12.1425 1.28554" stroke="white" stroke-width="1.39286" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
+                        <img src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" class="offer_img" alt="Séjour Désert Dakhla Experience">
+                    </div>
+                </div>
+            </div>
+            <div class="offer__iteme  p-lg-5 p-md-5 p-4 mb-5 ">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
+                        <img src="assets/images/excursion-dakhla-4x4_4.jpeg" class="offer_img" alt="White Dune Dakhla Sunset Tour">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mt-4 d-flex align-items-center">
+                        <div>
+                            <h2>{{ __('messages.whitedune_breadcrumb') }}</h2>
+                            <p class="offer_breaf">{{ __('messages.whitedune_offer_brief') }}
+                            </p>
+                            <div>
+                                <a href="{{ route('offer.white_dune_sunset') }}" class="me-auto ms-auto ms-sm-0 custom-button custom-m px-sm-3" tabindex="0">
+                                    <p class="m-0">Book now</p>
+                                    <span class="custom-arrow position-relative ">
+                                        <svg class="arr1 position-absolute" xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none">
+                                            <path d="M12.1425 8.71411L15.8567 4.99983L12.1425 1.28554" stroke="white" stroke-width="1.39286" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                        <svg class="arr2 position-absolute" xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none">
+                                            <path d="M12.1425 8.71411L15.8567 4.99983L12.1425 1.28554" stroke="white" stroke-width="1.39286" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

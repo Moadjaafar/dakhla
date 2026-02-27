@@ -118,6 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+
 });
 $(document).ready(function () {
     const currentLang = $('html').attr('lang'); // Get current language from <html> tag

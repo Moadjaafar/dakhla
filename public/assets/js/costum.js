@@ -73,3 +73,36 @@ const lenis = new Lenis({
   };
   window.stopLenis = () => lenis.stop();
   window.startLenis = () => lenis.start();
+
+document.addEventListener("DOMContentLoaded", function () {
+    var offer_swiper = new Swiper(".offer_swiper", {
+        spaceBetween: 15,
+        slidesPerView: 'auto',
+        loop: true,
+        grabCursor: true,
+        freeMode: true,
+    });
+
+    var activities_swiper = new Swiper(".activities_swiper", {
+        spaceBetween: 15,
+        slidesPerView: 'auto',
+        loop: true,
+        grabCursor: true,
+        freeMode: true,
+    });
+    const prevActivityBtn = document.querySelector(".prev_activity_slide");
+    const nextActivityBtn = document.querySelector(".next_activity_slide");
+
+    if (prevActivityBtn) {
+        prevActivityBtn.addEventListener("click", function() {
+            activities_swiper.slidePrev();
+        });
+    }
+
+    if (nextActivityBtn) {
+        nextActivityBtn.addEventListener("click", function() {
+            activities_swiper.slideNext();
+        });
+    }
+
+});

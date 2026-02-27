@@ -23,6 +23,9 @@ Route::get('/voyage-en-catamaran-dans-grande-baie', [MainController::class, 'voy
 Route::get('/balade-dos-chameau-desert-dakhla', [MainController::class, 'baladeDosChameauDesertDakhla'])->name('offer.dos_chameau_desert');
 Route::get('/excursion-quad-desert-dakhla', [MainController::class, 'excursionQuadDesertDakhla'])->name('offer.quad_desert');
 Route::get('/surf-sessions-dakhla', [MainController::class, 'surfSessionsDakhla'])->name('offer.surf_sessions');
+Route::get('/nuit-desert-bivouac-imlili', [MainController::class, 'nuitDesertBivouacImlili'])->name('offer.bivouac_imlili');
+Route::get('/sejour-desert-dakhla-experience', [MainController::class, 'sejourDesertDakhlaExperience'])->name('offer.sejour_desert');
+Route::get('/white-dune-dakhla-sunset-tour', [MainController::class, 'whiteDuneSunsetTour'])->name('offer.white_dune_sunset');
 
 Route::post('/reservation', [MainController::class, 'resevation_form'])->name('reservation.store');
 Route::post('/reservation-send', [MainController::class, 'store'])->name('reservation.send');

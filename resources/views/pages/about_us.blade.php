@@ -9,7 +9,7 @@
     <section class="container py-5">
         <div class="row mx-auto w-100 revers">
             <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                <img src="assets/images/Frame_427321428.png" class="w-100" alt="Desert adventure in Dakhla">
+                <img src="assets/images/experince4.jpeg" class="w-100" alt="Desert adventure in Dakhla" style="border-radius: 12px; object-fit: cover;">
             </div>
             <div class="col-lg-6 col-md-6 col-12 d-flex flex-column justify-content-center gap-lg-3 gap-3">
                 <span class="shara__tag">{{ __('messages.Dakhla_Beyond_Adventure') }}</span>

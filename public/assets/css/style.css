@@ -90,8 +90,9 @@ header{
 }
 
 .swiper_iteme:nth-child(1n) {
-    background: 
-        url('/public/assets/images/IMG_0625.jpg') !important;        /* Bottom image */
+    /* background: url('/public/assets/images/IMG_0625.jpg') !important; */
+    background:
+        url('/assets/images/IMG_0625.jpg') !important;        /* Bottom image */
     /* Additional background properties for control */
     background-size: cover  !important;        /* Ensures both images cover the section */
     background-position: top  !important;  /* Centers both images */
@@ -99,18 +100,148 @@ header{
 }
 
 .swiper_iteme:nth-child(2n) {
-    background: 
-    url('/public/assets/images/IMG_0630.jpg') !important;        /* Bottom image */
+    /* background: url('/public/assets/images/IMG_0630.jpg') !important; */
+    background:
+    url('/assets/images/IMG_0630.jpg') !important;        /* Bottom image */
     /* Additional background properties for control */
     background-size: cover  !important;        /* Ensures both images cover the section */
     background-position: top  !important;  /* Centers both images */
     background-repeat: no-repeat  !important; /* Prevents repetition of both images */
 }
 .swiper_iteme:nth-child(3n) {
-    background: 
-    url('/public/assets/images/IMG_0629.jpg') !important;        /* Bottom image */
+    /* background: url('/public/assets/images/IMG_0629.jpg') !important; */
+    background:
+    url('/assets/images/IMG_0629.jpg') !important;        /* Bottom image */
     /* Additional background properties for control */
     background-size: cover  !important;        /* Ensures both images cover the section */
     background-position: top  !important;  /* Centers both images */
     background-repeat: no-repeat  !important; /* Prevents repetition of both images */
+}
+.activities_section{
+    background-color: white;
+    overflow: hidden;
+}
+.activities_swiper{
+    padding-left: calc((100% - 1140px) / 2);
+}
+.activities_swiper .swiper-slide{
+    width: 300px;
+    height: 400px;
+}
+.activity_slide{
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border: 3px solid rgba(215, 154, 76, 0.3);
+    transition: border-color 0.3s ease;
+    display: block;
+    text-decoration: none;
+}
+.activity_slide:hover{
+    border-color: #D79A4C;
+}
+.activity_slide img,
+.activity_slide video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+.activity_slide:hover img,
+.activity_slide:hover video{
+    transform: scale(1.05);
+}
+.activity_label{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 15px 12px;
+    background: linear-gradient(transparent, rgba(3, 58, 78, 0.85));
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    z-index: 2;
+    transform: translateY(100%);
+    transition: transform 0.35s ease;
+}
+.activity_slide:hover .activity_label{
+    transform: translateY(0);
+}
+.activity_play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    z-index: 2;
+    transition: transform 0.3s ease;
+}
+.activity_play img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.activity_slide:hover .activity_play{
+    transform: translate(-50%, -50%) scale(1.15);
+}
+@media (max-width: 1199px) {
+    .activities_swiper{
+        padding-left: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .activities_swiper .swiper-slide{
+        width: 250px;
+        height: 340px;
+    }
+}
+/* Offer Detail Swiper */
+.offer_swiper_wrapper{
+    overflow: hidden;
+}
+.offer_swiper .swiper-slide{
+    width: 300px;
+    height: 400px;
+}
+.offer_swiper .swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+@media (max-width: 768px) {
+    .offer_swiper .swiper-slide{
+        width: 250px;
+        height: 340px;
+    }
+}
+/* Country Select */
+.country_select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    appearance: auto;
+}
+.country_select:focus{
+    outline: none;
+    border-color: #D79A4C;
+}
+.note_repas{
+    font-size: 13px;
+    color: #D79A4C;
+    background: rgba(215, 154, 76, 0.1);
+    padding: 8px 12px;
+    border-radius: 6px;
+    border-left: 3px solid #D79A4C;
+    margin-bottom: 10px;
 }
