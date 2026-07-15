@@ -68,6 +68,16 @@ header{
     height: 10px;
     width: auto;
 }
+.kayak_partner img.kayak{
+    height: 40px;
+    width: auto;
+}
+.offer_img--cover{
+    aspect-ratio: 3 / 2;
+    height: auto;
+    object-fit: cover;
+    object-position: center top;
+}
 /* For Webkit Browsers */
 ::-webkit-scrollbar {
     width: 10px; /* Width of the scrollbar */

@@ -536,6 +536,9 @@ return [
     "key_6e6c28914ccc84d60b1b0f4e213ca5c5" => <<<TEXT
     Payment methods
     TEXT,
+    "key_find_us_here" => <<<TEXT
+    Find us here
+    TEXT,
     "key_0244f161e000fc5f33bf5672179b4ab5" => <<<TEXT
     2025@ Dakhla Beyond Adventure. All rights reserved.
     TEXT,

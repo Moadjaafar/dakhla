@@ -19,9 +19,9 @@ return [
     'col_1' => "Faites une balade traditionnelle en chameau dans les superbes dunes avec des guides locaux expérimentés.",
     'col_2' => "Vivez le frisson du sandboard sur les dunes géantes – une expérience parfaite pour les amateurs d’aventure.",
     'col_3' => "Passez une nuit sous les étoiles dans un camp confortable, avec des repas délicieux et une ambiance chaleureuse.",
-    ‘Dakhla_Beyond_Adventure’ => "Rencontrez Votre Guide",
-    ‘Experience_Unmatched_Sahara_Adventures_in_Dakhla’ => "Laarbi Elbaze, Votre Expert Local à Dakhla",
-    ‘paragraphe1’ => "Né et élevé à Dakhla, Laarbi Elbaze est le fondateur de Dakhla Beyond Adventure et un guide touristique expérimenté qui connaît chaque recoin de cette région magnifique. Passionné depuis des années par le partage de la beauté du Sahara, Laarbi offre des expériences authentiques et inoubliables — des excursions palpitantes en 4x4 dans le désert aux balades à dos de chameau sur les dunes dorées. Sa connaissance profonde de la culture locale, des trésors cachés et des paysages époustouflants rend chaque aventure véritablement unique. Avec Laarbi comme guide, vous ne visitez pas Dakhla — vous la vivez.",
+    'Dakhla_Beyond_Adventure' => "Rencontrez Votre Guide",
+    'Experience_Unmatched_Sahara_Adventures_in_Dakhla' => "Laarbi Elbaze, Votre Expert Local à Dakhla",
+    'paragraphe1' => "Né et élevé à Dakhla, Laarbi Elbaze est le fondateur de Dakhla Beyond Adventure et un guide touristique expérimenté qui connaît chaque recoin de cette région magnifique. Passionné depuis des années par le partage de la beauté du Sahara, Laarbi offre des expériences authentiques et inoubliables — des excursions palpitantes en 4x4 dans le désert aux balades à dos de chameau sur les dunes dorées. Sa connaissance profonde de la culture locale, des trésors cachés et des paysages époustouflants rend chaque aventure véritablement unique. Avec Laarbi comme guide, vous ne visitez pas Dakhla — vous la vivez.",
     'paragraphe2' => "Aventures Inoubliables dans le Désert du Sahara à Dakhla",
     'paragraphe3' => "Explorez le Sahara de Dakhla avec des balades en chameau, des descentes de dunes et des nuits étoilées pour une aventure inoubliable.",
     'Contact_us' => "Contactez-nous",
@@ -638,6 +638,9 @@ Votre aventure commence avec un accueil chaleureux. Votre chauffeur-guide viendr
     TEXT,
     "key_6e6c28914ccc84d60b1b0f4e213ca5c5" => <<<TEXT
     les modes de paiement
+    TEXT,
+    "key_find_us_here" => <<<TEXT
+    Retrouvez-nous ici
     TEXT,
     "key_0244f161e000fc5f33bf5672179b4ab5" => <<<TEXT
     2025@ Dakhla beyond adventure Tous droits réservés

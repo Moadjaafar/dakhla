@@ -33,6 +33,12 @@
                         <img src="assets/images/cmicard.png" class="cmi" alt="">
                     </div>
                 </div>
+                <div class="kayak_partner mt-3">
+                    <h4>{{ __('messages.key_find_us_here') }}</h4>
+                    <a href="https://www.kayak.fr/" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/images/kayak.png" class="kayak" alt="Kayak">
+                    </a>
+                </div>
             </div>
             <div class="col-12">
                 <div class="d-lg-flex position__v2   justify-content-lg-between align-items-lg-end">

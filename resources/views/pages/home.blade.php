@@ -193,7 +193,7 @@
                 </div>
                 <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.dakhla_4x4') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/offer.png" alt="Excursion d'une Journée à Dakhla en 4x4">
+                        <img src="assets/images/offer-4x4.jpeg" alt="Excursion d'une Journée à Dakhla en 4x4">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_5ecf541d66dad225d2e0a60f7ca4a0ef') }}</h3>
                             <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}

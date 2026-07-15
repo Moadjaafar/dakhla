@@ -31,7 +31,7 @@
                         </div> 
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/offer.png" class="offer_img" alt="Excursion d'une Journée à Dakhla en 4x4 ">
+                        <img src="assets/images/offer-4x4.jpeg" class="offer_img offer_img--cover" alt="Excursion d'une Journée à Dakhla en 4x4 ">
                     </div>
                 </div>
             </div>
