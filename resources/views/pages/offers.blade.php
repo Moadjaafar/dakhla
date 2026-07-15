@@ -12,6 +12,32 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mb-4 d-flex align-items-center">
                         <div>
+                            <h2>{{ __('messages.kitesurf_title') }}</h2>
+                            <p class="offer_breaf">{{ __('messages.kitesurf_card_desc') }}</p>
+                            <div>
+                                <a href="{{ route('offer.kitesurf_dakhla') }}" class="me-auto ms-auto ms-sm-0 custom-button custom-m px-sm-3" tabindex="0">
+                                    <p class="m-0">Book now</p>
+                                    <span class="custom-arrow position-relative ">
+                                        <svg class="arr1 position-absolute" xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none">
+                                            <path d="M12.1425 8.71411L15.8567 4.99983L12.1425 1.28554" stroke="white" stroke-width="1.39286" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                        <svg class="arr2 position-absolute" xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none">
+                                            <path d="M12.1425 8.71411L15.8567 4.99983L12.1425 1.28554" stroke="white" stroke-width="1.39286" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
+                        <img src="assets/images/kitesurf-1.jpeg" class="offer_img offer_img--cover" alt="{{ __('messages.kitesurf_title') }}">
+                    </div>
+                </div>
+            </div>
+            <div class="offer__iteme p-lg-5 p-md-5 p-4 mb-5 ">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mb-4 d-flex align-items-center">
+                        <div>
                             <h2>Excursion d'une Journée à Dakhla en 4x4 </h2>
                             <p class="offer_breaf">Vivez une journée inoubliable à Dakhla, où la magie du désert rencontre l'immensité de l'océan. Embarquez pour une aventure riche en découvertes naturelles et culturelles, dans un cadre unique entre terre et mer.
                             </p>

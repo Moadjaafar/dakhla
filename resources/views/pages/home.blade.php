@@ -180,6 +180,17 @@
     <div class=" pb-5 card_sahara_cnt">
         <div class="swiper Swiper_offers">
             <div class="swiper-wrapper">
+                <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.kitesurf_dakhla') }}'" style="cursor: pointer;">
+                    <div class="card_shara">
+                        <img src="assets/images/kitesurf-1.jpeg" alt="{{ __('messages.kitesurf_title') }}">
+                        <div class="card_content px-4 py-4">
+                            <h3>{{ __('messages.kitesurf_title') }}</h3>
+                            <p class="light p_sm">{{ __('messages.kitesurf_card_desc') }}
+                            </p>
+                            <a href="{{ route('offer.kitesurf_dakhla') }}">{{ __('messages.key_fc46f6383e012278263fd788d9b198ad') }}</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.surf_sessions') }}'" style="cursor: pointer;">
                     <div class="card_shara">
                         <img src="assets/images/offer7.png" alt="Explorez les vagues de Dakhla avec nos sessions de surf sur-mesure">

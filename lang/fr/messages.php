@@ -784,4 +784,21 @@ Votre aventure commence avec un accueil chaleureux. Votre chauffeur-guide viendr
     'whitedune_price' => '80 € / groupe',
     'whitedune_offer_brief' => 'Excursion privée en 4x4 vers la Dune Blanche au coucher du soleil. Vues panoramiques, sable doux et atmosphère magique sur le lagon de Dakhla.',
 
+    // Kitesurf - One Life Dakhla
+    'kitesurf_title' => 'Kitesurf à Dakhla – Ride, vent et liberté !',
+    'kitesurf_intro' => 'Bienvenue dans notre école de kitesurf itinérante, One Life Dakhla !',
+    'kitesurf_p1' => 'Ici, pas de spot fixe ni de cours en groupe : on vous emmène chaque jour depuis votre hôtel vers les meilleurs spots du moment — ceux où le vent est le plus fort, l\'eau la plus belle et où vous ridez presque seuls.',
+    'kitesurf_p2' => 'Du débutant total au rider freestyle, on vous accompagne avec une approche simple, efficace et 100 % plaisir. Le tout encadré par un moniteur expérimenté, ancien formateur UCPA, pour progresser vite et en toute sécurité.',
+    'kitesurf_p3' => 'Le matériel est récent et haut de gamme (Duotone), vous serez transportés, équipés et surtout : vous vivrez le kitesurf dans sa version la plus pure, conviviale et fun.',
+    'kitesurf_p4' => 'Ambiance chill, progression rapide, spots incroyables… et des tarifs accessibles pour une expérience vraiment différente à Dakhla 🤙',
+    'kitesurf_card_desc' => 'Cours de kitesurf itinérants à Dakhla, du débutant au freestyle, avec un moniteur expérimenté et du matériel Duotone haut de gamme.',
+    'kitesurf_pricing_title' => 'Nos tarifs',
+    'kitesurf_cours_prive' => 'Cours privé',
+    'kitesurf_cours_semi_prive' => 'Cours semi-privé',
+    'kitesurf_duree' => 'Durée',
+    'kitesurf_prix' => 'Prix',
+    'kitesurf_heure_supp' => 'Heure supplémentaire',
+    'kitesurf_heures' => 'heures',
+    'kitesurf_type_label' => 'Type de cours',
+
 ];

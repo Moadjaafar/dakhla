@@ -54,6 +54,8 @@
                             <input type="hidden" name="name" value="{{ $data['name'] }}">
                             <input type="hidden" name="prix" value="{{ $data['prix'] }}">
                             <input type="hidden" name="img_src" value="{{ $data['img_src'] }}">
+                            <input type="hidden" name="offer_type" value="{{ $data['offer_type'] ?? '' }}">
+                            <input type="hidden" name="offer_duree" value="{{ $data['offer_duree'] ?? '' }}">
 
                         </div>
                         <div class="mt-4">

@@ -166,7 +166,7 @@ a[x-apple-data-detectors] {
                       <td class="es-m-p0r" align="center" style="padding:0;Margin:0;width:70px">
                        <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                          <tr>
-                          <td align="center" style="padding:0;Margin:0;font-size:0px"><img class="adapt-img" src="https://vdexxi.stripocdn.email/content/guids/CABINET_b169c2779c1bfe2dd4ad1479c24deda0df91a6d37b584f085553d9dbef198835/images/zza_WMO.png" alt="" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="70"></td>
+                          <td align="center" style="padding:0;Margin:0;font-size:0px"><img class="adapt-img" src="{{ asset($data['img_src']) }}" alt="{{ $data['name'] }}" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border-radius:8px" width="70"></td>
                          </tr>
                        </table></td>
                      </tr>
@@ -232,6 +232,23 @@ a[x-apple-data-detectors] {
                  </tr>
                </table></td>
              </tr>
+@if(!empty($data['offer_type']) || !empty($data['offer_duree']))
+             <tr>
+              <td align="left" style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
+               <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                 @if(!empty($data['offer_type']))
+                 <tr>
+                  <td align="left" style="padding:0;Margin:0;padding-bottom:5px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#333333;font-size:14px">Type de cours:&nbsp;<strong>{{ $data['offer_type'] }}</strong></p></td>
+                 </tr>
+                 @endif
+                 @if(!empty($data['offer_duree']))
+                 <tr>
+                  <td align="left" style="padding:0;Margin:0;padding-bottom:5px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#333333;font-size:14px">Durée:&nbsp;<strong>{{ $data['offer_duree'] }}</strong></p></td>
+                 </tr>
+                 @endif
+               </table></td>
+             </tr>
+@endif
              <tr>
               <td align="left" style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px"><!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:280px" valign="top"><![endif]-->
                <table cellpadding="0" cellspacing="0" class="es-left" align="left" role="none" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">

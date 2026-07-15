@@ -78,6 +78,46 @@ header{
     object-fit: cover;
     object-position: center top;
 }
+/* Kitesurf pricing tables */
+.price_table_card{
+    background: #f7f3ea;
+    border-radius: 16px;
+    padding: 24px 28px;
+    height: 100%;
+}
+.price_table_title{
+    color: #4ba89a;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.price_row{
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    padding: 9px 0;
+}
+.price_row .dur{
+    font-weight: 700;
+    color: #1c1c1c;
+    white-space: nowrap;
+}
+.price_row .leader{
+    flex: 1 1 auto;
+    border-bottom: 2px dotted #b9b2a3;
+    transform: translateY(-4px);
+}
+.price_row .amt{
+    font-weight: 700;
+    color: #1f7a5c;
+    white-space: nowrap;
+}
+.price_row.extra{
+    margin-top: 6px;
+    border-top: 1px solid #e2dccd;
+    padding-top: 14px;
+}
 /* For Webkit Browsers */
 ::-webkit-scrollbar {
     width: 10px; /* Width of the scrollbar */

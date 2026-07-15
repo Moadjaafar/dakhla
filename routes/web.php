@@ -26,6 +26,7 @@ Route::get('/surf-sessions-dakhla', [MainController::class, 'surfSessionsDakhla'
 Route::get('/nuit-desert-bivouac-imlili', [MainController::class, 'nuitDesertBivouacImlili'])->name('offer.bivouac_imlili');
 Route::get('/sejour-desert-dakhla-experience', [MainController::class, 'sejourDesertDakhlaExperience'])->name('offer.sejour_desert');
 Route::get('/white-dune-dakhla-sunset-tour', [MainController::class, 'whiteDuneSunsetTour'])->name('offer.white_dune_sunset');
+Route::get('/kitesurf-dakhla-one-life', [MainController::class, 'kitesurfDakhla'])->name('offer.kitesurf_dakhla');
 
 Route::post('/reservation', [MainController::class, 'resevation_form'])->name('reservation.store');
 Route::post('/reservation-send', [MainController::class, 'store'])->name('reservation.send');

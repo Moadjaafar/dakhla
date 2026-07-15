@@ -73,6 +73,11 @@ class MainController extends Controller
     {
         return view('offers.white_dune_sunset_tour');
     }
+
+    public function kitesurfDakhla()
+    {
+        return view('offers.kitesurf_dakhla');
+    }
     public function resevation_form(Request $request)
     {
         // Validate the inputs
@@ -82,6 +87,8 @@ class MainController extends Controller
             'img_src' => 'required|string',
             'nbr_person' => 'required|string',
             'date_rdv' => 'required|date',
+            'offer_type' => 'nullable|string|max:255',
+            'offer_duree' => 'nullable|string|max:255',
         ]);
         // Pass data to the reservation view
         return view('pages.reservation', ['data' => $validatedData]);
@@ -102,6 +109,8 @@ class MainController extends Controller
             'img_src' => 'required|string',
             'nbr_person' => 'required|string',
             'date_rdv' => 'required|date',
+            'offer_type' => 'nullable|string|max:255',
+            'offer_duree' => 'nullable|string|max:255',
         ]);
 
         $prix = $validatedData['prix'] == '000' ? '-- --' : $validatedData['prix'];
@@ -118,6 +127,8 @@ class MainController extends Controller
             'img_src' => $validatedData['img_src'],
             'nbr_person' => $validatedData['nbr_person'],
             'date_rdv' => $validatedData['date_rdv'],
+            'offer_type' => $validatedData['offer_type'] ?? '',
+            'offer_duree' => $validatedData['offer_duree'] ?? '',
             'dateFormatted1' => $dateFormatted1,
         ];
         try {
