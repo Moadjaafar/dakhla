@@ -79,13 +79,13 @@
                                 <h3>{{ $data['name'] }}</h3>
                             </div>
                             <div class="col-6  ps-2 pe-0">
-                                <img src="{{ $data['img_src'] }}" class="w-100" alt="">
+                                <img loading="lazy" src="{{ $data['img_src'] }}" class="w-100" alt="">
                             </div>
                         </div>
                         <p class="cr_color ">Select date and travelers</p>
                         <div class="d-flex align-items-center justify-content-between py-3 border___v">
                             <div class="d-flex align-items-center gap-2">
-                                <img src="assets/images/group.svg" class="" alt="">
+                                <img loading="lazy" src="assets/images/group.svg" class="" alt="">
                                 <span class="nbr_persen">Travelers</span>
                             </div>
                             <div>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-between py-3 border___v">
                             <div class="d-flex align-items-center gap-2">
-                                <img src="assets/images/date.svg" class="" alt="">
+                                <img loading="lazy" src="assets/images/date.svg" class="" alt="">
                                 <span class="nbr_persen">Date</span>
                             </div>
                             <div>

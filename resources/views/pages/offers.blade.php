@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/kitesurf-1.jpeg" class="offer_img offer_img--cover" alt="{{ __('messages.kitesurf_title') }}">
+                        <img loading="lazy" src="assets/images/kitesurf-1.jpeg" class="offer_img offer_img--cover" alt="{{ __('messages.kitesurf_title') }}">
                     </div>
                 </div>
             </div>
@@ -57,14 +57,14 @@
                         </div> 
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/offer-4x4.jpeg" class="offer_img offer_img--cover" alt="Excursion d'une Journée à Dakhla en 4x4 ">
+                        <img loading="lazy" src="assets/images/offer-4x4.jpeg" class="offer_img offer_img--cover" alt="Excursion d'une Journée à Dakhla en 4x4 ">
                     </div>
                 </div>
             </div>
             <div class="offer__iteme  p-lg-5 p-md-5 p-4 mb-5 ">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/excursion-dakhla-4x4_4.jpeg" class="offer_img" alt="Brochure d’Excursion - Demi-Journée avec Voiture 4x4 et Chauffeur-Guide Dakhla">
+                        <img loading="lazy" src="assets/images/excursion-dakhla-4x4_4.jpeg" class="offer_img" alt="Brochure d’Excursion - Demi-Journée avec Voiture 4x4 et Chauffeur-Guide Dakhla">
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mt-4  d-flex align-items-center">
                         <div>
@@ -92,7 +92,7 @@
             <div class="offer__iteme  p-lg-5 p-md-5 p-4 mb-5 ">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/offer4.png" class="offer_img" alt="VOYAGE EN CATAMARAN DANS LA GRANDE BAIE DE DAKHLA">
+                        <img loading="lazy" src="assets/images/offer4.png" class="offer_img" alt="VOYAGE EN CATAMARAN DANS LA GRANDE BAIE DE DAKHLA">
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mt-4 d-flex align-items-center">
                         <div>
@@ -140,14 +140,14 @@
                         </div> 
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/experince81.jpeg" class="offer_img" alt="Balade à dos de chameau dans le désert de Dakhla">
+                        <img loading="lazy" src="assets/images/experince81.jpeg" class="offer_img" alt="Balade à dos de chameau dans le désert de Dakhla">
                     </div>
                 </div>
             </div>
             <div class="offer__iteme  p-lg-5 p-md-5 p-4 mb-5 ">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/experince5.jpeg" class="offer_img" alt="Excursion en Quad dans le Désert de Dakhla">
+                        <img loading="lazy" src="assets/images/experince5.jpeg" class="offer_img" alt="Excursion en Quad dans le Désert de Dakhla">
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mt-4 d-flex align-items-center">
                         <div>
@@ -196,14 +196,14 @@
                         </div> 
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/offer7.png" class="offer_img" alt="Explorez les vagues de Dakhla avec nos sessions de surf sur-mesure">
+                        <img loading="lazy" src="assets/images/offer7.png" class="offer_img" alt="Explorez les vagues de Dakhla avec nos sessions de surf sur-mesure">
                     </div>
                 </div>
             </div>
             <div class="offer__iteme  p-lg-5 p-md-5 p-4 mb-5 ">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" class="offer_img" alt="Nuit Désert Dakhla – Bivouac Imlili">
+                        <img loading="lazy" src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" class="offer_img" alt="Nuit Désert Dakhla – Bivouac Imlili">
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mt-4 d-flex align-items-center">
                         <div>
@@ -250,14 +250,14 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" class="offer_img" alt="Séjour Désert Dakhla Experience">
+                        <img loading="lazy" src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" class="offer_img" alt="Séjour Désert Dakhla Experience">
                     </div>
                 </div>
             </div>
             <div class="offer__iteme  p-lg-5 p-md-5 p-4 mb-5 ">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                        <img src="assets/images/excursion-dakhla-4x4_4.jpeg" class="offer_img" alt="White Dune Dakhla Sunset Tour">
+                        <img loading="lazy" src="assets/images/excursion-dakhla-4x4_4.jpeg" class="offer_img" alt="White Dune Dakhla Sunset Tour">
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mt-4 d-flex align-items-center">
                         <div>

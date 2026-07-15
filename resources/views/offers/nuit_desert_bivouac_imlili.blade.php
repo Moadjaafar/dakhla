@@ -29,19 +29,19 @@
             <div class="swiper offer_swiper">
                 <div class="swiper-wrapper">
                     <a class="swiper-slide activity_slide" data-fancybox="offer-gallery" href="assets/images/DesertNightDakhlaBivouacImlili.jpeg">
-                        <img src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" alt="Bivouac Imlili">
+                        <img loading="lazy" src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" alt="Bivouac Imlili">
                         <span class="activity_label">Bivouac Imlili</span>
                     </a>
                     <a class="swiper-slide activity_slide" data-fancybox="offer-gallery" href="assets/images/experince9.jpeg">
-                        <img src="assets/images/experince9.jpeg" alt="Bivouac Imlili">
+                        <img loading="lazy" src="assets/images/experince9.jpeg" alt="Bivouac Imlili">
                         <span class="activity_label">Bivouac Imlili</span>
                     </a>
                     <a class="swiper-slide activity_slide" data-fancybox="offer-gallery" href="assets/images/experince10.jpeg">
-                        <img src="assets/images/experince10.jpeg" alt="Bivouac Imlili">
+                        <img loading="lazy" src="assets/images/experince10.jpeg" alt="Bivouac Imlili">
                         <span class="activity_label">Bivouac Imlili</span>
                     </a>
                     <a class="swiper-slide activity_slide" data-fancybox="offer-gallery" href="assets/images/experince4.jpeg">
-                        <img src="assets/images/experince4.jpeg" alt="Bivouac Imlili">
+                        <img loading="lazy" src="assets/images/experince4.jpeg" alt="Bivouac Imlili">
                         <span class="activity_label">Bivouac Imlili</span>
                     </a>
                 </div>
@@ -56,7 +56,7 @@
                 <div class="border__cnt">
                     <div class="d-flex align-items-center justify-content-between iteme gap-4 border___botom">
                         <div class="d-flex align-items-center gap-2">
-                            <img src="assets/images/location.svg" alt="">
+                            <img loading="lazy" src="assets/images/location.svg" alt="">
                             <span class="img_title">{{ __('messages.key_8145e6293dd5ea88e3ddbdc68c605f2f') }}</span>
                         </div>
                         <div class="text-end">
@@ -65,7 +65,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between iteme gap-4 border___botom">
                         <div class="d-flex align-items-center gap-2">
-                            <img src="assets/images/time.svg" alt="">
+                            <img loading="lazy" src="assets/images/time.svg" alt="">
                             <span class="img_title">{{ __('messages.key_990e1f56fa24065dc178b298b2ea7629') }}</span>
                         </div>
                         <div class="text-end">
@@ -74,7 +74,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between iteme gap-4">
                         <div class="d-flex align-items-center gap-2">
-                            <img src="assets/images/transport.svg" alt="">
+                            <img loading="lazy" src="assets/images/transport.svg" alt="">
                             <span class="img_title">{{ __('messages.key_8145e6293dd5ea88e3ddbdc68c605f2f') }}</span>
                         </div>
                         <div class="text-end">
@@ -90,12 +90,12 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.bivouac_step1_title') }}</span>
                                 </div>
                                 <div class="gap__drop">
                                     <span class="detail_img">{{ __('messages.bivouac_step1_time') }}</span>
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -107,11 +107,11 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.bivouac_step2_title') }}</span>
                                 </div>
                                 <div class="gap__drop">
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -123,11 +123,11 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.bivouac_step3_title') }}</span>
                                 </div>
                                 <div class="gap__drop">
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -139,11 +139,11 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.bivouac_step4_title') }}</span>
                                 </div>
                                 <div class="gap__drop">
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -155,11 +155,11 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.bivouac_step5_title') }}</span>
                                 </div>
                                 <div class="gap__drop">
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -171,11 +171,11 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.bivouac_step6_title') }}</span>
                                 </div>
                                 <div class="gap__drop">
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -216,7 +216,7 @@
                         <p class="cr_color">Select date and travelers</p>
                         <div class="d-flex align-items-center justify-content-between py-3 border___v">
                             <div class="d-flex align-items-center gap-2">
-                                <img src="assets/images/group.svg" class="" alt="">
+                                <img loading="lazy" src="assets/images/group.svg" class="" alt="">
                                 <span class="nbr_persen">Travelers</span>
                             </div>
                             <div>
@@ -231,7 +231,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-between py-3 border___v">
                             <div class="d-flex align-items-center gap-2">
-                                <img src="assets/images/date.svg" class="" alt="">
+                                <img loading="lazy" src="assets/images/date.svg" class="" alt="">
                                 <span class="nbr_persen">Date</span>
                             </div>
                             <div>
@@ -260,7 +260,7 @@
 </section>
 <section class="sea_section d-flex align-items-center">
     <div class="container column-flex">
-        <img src="assets/images/our_offers_ani.svg" class="my-4" alt="">
+        <img loading="lazy" src="assets/images/our_offers_ani.svg" class="my-4" alt="">
 
         <h2 class="p_max_xxl text-center">{{ __('messages.Discover_our_Offers_Events') }}</h2>
         <p class="p_max_xxl  text-center">
@@ -273,7 +273,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.dakhla_4x4') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/offer.png" alt="">
+                    <img loading="lazy" src="assets/images/offer.png" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_5ecf541d66dad225d2e0a60f7ca4a0ef') }}</h3>
                         <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}</p>
@@ -283,7 +283,7 @@
             </div>
             <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.surf_sessions') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/offer7.png" alt="">
+                    <img loading="lazy" src="assets/images/offer7.png" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_0c8e140b4cb5e4c9bd793446d8a296e4') }}</h3>
                         <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}</p>
@@ -293,7 +293,7 @@
             </div>
             <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.dos_chameau_desert') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/experince81.jpeg" alt="">
+                    <img loading="lazy" src="assets/images/experince81.jpeg" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_780886d385ed8cd3408f9134231e6340') }}</h3>
                         <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}</p>
@@ -303,7 +303,7 @@
             </div>
         </div>
     </div>
-    <button class="swipe_btnn left preveise_offer_slide "><img src="assets/images/swipleft.svg" alt=""></button>
-    <button class="swipe_btnn right next_offer_slide"><img src="assets/images/swipright.svg" alt=""></button>
+    <button class="swipe_btnn left preveise_offer_slide "><img loading="lazy" src="assets/images/swipleft.svg" alt=""></button>
+    <button class="swipe_btnn right next_offer_slide"><img loading="lazy" src="assets/images/swipright.svg" alt=""></button>
 </div>
 @endsection

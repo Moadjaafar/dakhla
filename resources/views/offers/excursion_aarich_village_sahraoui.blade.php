@@ -30,15 +30,15 @@
             <div class="swiper offer_swiper">
                 <div class="swiper-wrapper">
                     <a class="swiper-slide activity_slide" data-fancybox="offer-gallery" href="assets/images/Frame427321433.png">
-                        <img src="assets/images/Frame427321433.png" alt="">
+                        <img loading="lazy" src="assets/images/Frame427321433.png" alt="">
                         <span class="activity_label">Village Sahraoui</span>
                     </a>
                     <a class="swiper-slide activity_slide" data-fancybox="offer-gallery" href="assets/images/Frame4273214340.png">
-                        <img src="assets/images/Frame4273214340.png" alt="">
+                        <img loading="lazy" src="assets/images/Frame4273214340.png" alt="">
                         <span class="activity_label">Village Sahraoui</span>
                     </a>
                     <a class="swiper-slide activity_slide" data-fancybox="offer-gallery" href="assets/images/Framedg27321441.png">
-                        <img src="assets/images/Framedg27321441.png" alt="">
+                        <img loading="lazy" src="assets/images/Framedg27321441.png" alt="">
                         <span class="activity_label">Village Sahraoui</span>
                     </a>
                 </div>
@@ -53,7 +53,7 @@
                 <div class="border__cnt">
                     <div class="d-flex align-items-center justify-content-between iteme gap-4 border___botom">
                         <div class="d-flex align-items-center gap-2">
-                            <img src="assets/images/location.svg" alt="">
+                            <img loading="lazy" src="assets/images/location.svg" alt="">
                             <span class="img_title">{{ __('messages.key_8145e6293dd5ea88e3ddbdc68c605f2f') }}</span>
                         </div>
                         <div class="text-end">
@@ -62,7 +62,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between iteme gap-4 border___botom">
                         <div class="d-flex align-items-center gap-2">
-                            <img src="assets/images/time.svg" alt="">
+                            <img loading="lazy" src="assets/images/time.svg" alt="">
                             <span class="img_title">{{ __('messages.key_990e1f56fa24065dc178b298b2ea7629') }}</span>
                         </div>
                         <div class="text-end">
@@ -71,7 +71,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between iteme gap-4">
                         <div class="d-flex align-items-center gap-2">
-                            <img src="assets/images/transport.svg" alt="">
+                            <img loading="lazy" src="assets/images/transport.svg" alt="">
                             <span class="img_title">{{ __('messages.key_8145e6293dd5ea88e3ddbdc68c605f2f') }}</span>
                         </div>
                         <div class="text-end">
@@ -87,12 +87,12 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.key_f735ed37eaeca42037b6cd903bb6783a') }}</span>
                                 </div>
                                 <div class="gap__drop">
                                     <span class="detail_img">{{ __('messages.key_3c3c2bbd29cedd18f589fbdb78b2f73c') }}</span>
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -104,12 +104,12 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.key_ec8555a8bd5e40c3ce05a07365c0329c') }}</span>
                                 </div>
                                 <div class="gap__drop">
                                     <span class="detail_img">{{ __('messages.key_548949c701c8bd69c6a888721b0fd2e7') }}</span>
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -121,12 +121,12 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.key_ca938c247e82e4e6290ee68388ac81cb') }}</span>
                                 </div>
                                 <div class="gap__drop">
                                     <span class="detail_img">{{ __('messages.key_54641f9f690c60c7ff753c4b3d749e4e') }}</span>
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -138,12 +138,12 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.key_ffb0044cc8e58381dc0a9ae86737b779') }}</span>
                                 </div>
                                 <div class="gap__drop">
                                     <span class="detail_img">{{ __('messages.key_b3d3c02f00e85c17350289f0963eae4d') }}</span>
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -158,12 +158,12 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.key_172262bab49f2a369acdf418eb5aa210') }}</span>
                                 </div>
                                 <div class="gap__drop">
                                     <span class="detail_img">{{ __('messages.key_8ce92cfbc084e5195e29d907aba8d24c') }}</span>
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -175,12 +175,12 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.key_61b2e3f2c21631b05f5b77b10eb10062') }}</span>
                                 </div>
                                 <div class="gap__drop">
                                     <span class="detail_img">{{ __('messages.key_bb036648d86a55f8aeafc09e3c0ce4c3') }}</span>
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -191,12 +191,12 @@
                         <div class="dropdown_item">
                             <div class="d-flex align-items-center justify-content-between iteme iteme_drop_">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/images/location.svg" alt="">
+                                    <img loading="lazy" src="assets/images/location.svg" alt="">
                                     <span class="img_title">{{ __('messages.key_9c30c843616ace3721998fd1ab6d6dc9') }}</span>
                                 </div>
                                 <div class="gap__drop">
                                     <span class="detail_img">{{ __('messages.key_b64e31e44f8b142cb7905a5492ddca64') }}</span>
-                                    <img src="assets/images/dropdownn.svg" alt="">
+                                    <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                                 </div>
                             </div>
                             <div class="mt-3 description" style="display: none;">
@@ -229,7 +229,7 @@
                         </p>
                         <div class="d-flex align-items-center justify-content-between py-3 border___v">
                             <div class="d-flex align-items-center gap-2">
-                                <img src="assets/images/group.svg" class="" alt="">
+                                <img loading="lazy" src="assets/images/group.svg" class="" alt="">
                                 <span class="nbr_persen">Travelers</span>
                             </div>
                             <div>
@@ -244,7 +244,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-between py-3 border___v">
                             <div class="d-flex align-items-center gap-2">
-                                <img src="assets/images/date.svg" class="" alt="">
+                                <img loading="lazy" src="assets/images/date.svg" class="" alt="">
                                 <span class="nbr_persen">Date</span>
                             </div>
                             <div>
@@ -272,7 +272,7 @@
 </section>
 <section class="sea_section d-flex align-items-center">
     <div class="container column-flex">
-        <img src="assets/images/our_offers_ani.svg" class="my-4" alt="">
+        <img loading="lazy" src="assets/images/our_offers_ani.svg" class="my-4" alt="">
                               
         <h2 class="p_max_xxl text-center">{{ __('messages.Discover_our_Offers_Events') }}</h2>
         <p class="p_max_xxl  text-center">
@@ -285,7 +285,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.surf_sessions') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/offer7.png" alt="">
+                    <img loading="lazy" src="assets/images/offer7.png" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_0c8e140b4cb5e4c9bd793446d8a296e4') }}</h3>
                         <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -296,7 +296,7 @@
             </div>
             <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.dakhla_4x4') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/offer.png" alt="">
+                    <img loading="lazy" src="assets/images/offer.png" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_5ecf541d66dad225d2e0a60f7ca4a0ef') }}</h3>
                         <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -307,7 +307,7 @@
             </div>
             <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.aarich_village_sahraoui') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/offer_swip3.png" alt="">
+                    <img loading="lazy" src="assets/images/offer_swip3.png" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_45006e6e013626bcd989e81c14e50485') }}
                         </h3>
@@ -319,7 +319,7 @@
             </div>
             <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.catamaran_grande_baie') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/offer4.png" alt="">
+                    <img loading="lazy" src="assets/images/offer4.png" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_4adf7da9ac4f0c09bf49f129b833b4c3') }}
                         </h3>
@@ -331,7 +331,7 @@
             </div>
             <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.dos_chameau_desert') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/experince81.jpeg" alt="">
+                    <img loading="lazy" src="assets/images/experince81.jpeg" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_780886d385ed8cd3408f9134231e6340') }}
                         </h3>
@@ -343,7 +343,7 @@
             </div>
             <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.quad_desert') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/experince5.jpeg" alt="">
+                    <img loading="lazy" src="assets/images/experince5.jpeg" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_e380a8ce82dc9aeee8d9a27c779e4eb7') }}
                         </h3>
@@ -355,7 +355,7 @@
             </div>
             <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.brochure_demi_journee') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/excursion-dakhla-4x4_4.jpeg" alt="">
+                    <img loading="lazy" src="assets/images/excursion-dakhla-4x4_4.jpeg" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_a875c9c7071da4dc558aab956480c224') }}</h3>
                         <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -366,7 +366,7 @@
             </div>
         </div>
     </div>
-    <button class="swipe_btnn left preveise_offer_slide "><img src="assets/images/swipleft.svg" alt=""></button>
-    <button class="swipe_btnn right next_offer_slide"><img src="assets/images/swipright.svg" alt=""></button>
+    <button class="swipe_btnn left preveise_offer_slide "><img loading="lazy" src="assets/images/swipleft.svg" alt=""></button>
+    <button class="swipe_btnn right next_offer_slide"><img loading="lazy" src="assets/images/swipright.svg" alt=""></button>
 </div>
 @endsection

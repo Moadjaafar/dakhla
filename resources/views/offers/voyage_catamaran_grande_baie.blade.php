@@ -29,15 +29,15 @@
             <div class="swiper offer_swiper">
                 <div class="swiper-wrapper">
                     <a class="swiper-slide activity_slide" data-fancybox="offer-gallery" href="assets/images/Frame4321438.png">
-                        <img src="assets/images/Frame4321438.png" alt="">
+                        <img loading="lazy" src="assets/images/Frame4321438.png" alt="">
                         <span class="activity_label">Catamaran</span>
                     </a>
                     <a class="swiper-slide activity_slide" data-fancybox="offer-gallery" href="assets/images/Frame4321440.png">
-                        <img src="assets/images/Frame4321440.png" alt="">
+                        <img loading="lazy" src="assets/images/Frame4321440.png" alt="">
                         <span class="activity_label">Catamaran</span>
                     </a>
                     <a class="swiper-slide activity_slide" data-fancybox="offer-gallery" href="assets/images/Frame4273241.png">
-                        <img src="assets/images/Frame4273241.png" alt="">
+                        <img loading="lazy" src="assets/images/Frame4273241.png" alt="">
                         <span class="activity_label">Catamaran</span>
                     </a>
                 </div>
@@ -98,7 +98,7 @@
                         <!-- Person Selection with Dynamic Pricing -->
                         <div class="d-flex align-items-center justify-content-between py-3 border___v">
                             <div class="d-flex align-items-center gap-2">
-                                <img src="assets/images/group.svg" class="" alt="">
+                                <img loading="lazy" src="assets/images/group.svg" class="" alt="">
                                 <span class="nbr_persen">{{ __('messages.key_6c0e7e2f43ddbce9815298c1002428f3') }}</span>
                             </div>
                             <div>
@@ -113,7 +113,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-between py-3 border___v">
                             <div class="d-flex align-items-center gap-2">
-                                <img src="assets/images/date.svg" class="" alt="">
+                                <img loading="lazy" src="assets/images/date.svg" class="" alt="">
                                 <span class="nbr_persen">Date</span>
                             </div>
                             <div>
@@ -142,7 +142,7 @@
 </section>
 <section class="sea_section d-flex align-items-center">
     <div class="container column-flex">
-        <img src="assets/images/our_offers_ani.svg" class="my-4" alt="">
+        <img loading="lazy" src="assets/images/our_offers_ani.svg" class="my-4" alt="">
                               
         <h2 class="p_max_xxl text-center">{{ __('messages.Discover_our_Offers_Events') }}</h2>
         <p class="p_max_xxl  text-center">
@@ -155,7 +155,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.surf_sessions') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/offer7.png" alt="">
+                    <img loading="lazy" src="assets/images/offer7.png" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_0c8e140b4cb5e4c9bd793446d8a296e4') }}</h3>
                         <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -166,7 +166,7 @@
             </div>
             <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.dakhla_4x4') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/offer.png" alt="">
+                    <img loading="lazy" src="assets/images/offer.png" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_5ecf541d66dad225d2e0a60f7ca4a0ef') }}</h3>
                         <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -177,7 +177,7 @@
             </div>
             <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.bivouac_imlili') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" alt="">
+                    <img loading="lazy" src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.bivouac_breadcrumb') }}</h3>
                         <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}</p>
@@ -187,7 +187,7 @@
             </div>
             <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.catamaran_grande_baie') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/offer4.png" alt="">
+                    <img loading="lazy" src="assets/images/offer4.png" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_4adf7da9ac4f0c09bf49f129b833b4c3') }}
                         </h3>
@@ -199,7 +199,7 @@
             </div>
             <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.dos_chameau_desert') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/experince81.jpeg" alt="">
+                    <img loading="lazy" src="assets/images/experince81.jpeg" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_780886d385ed8cd3408f9134231e6340') }}
                         </h3>
@@ -211,7 +211,7 @@
             </div>
             <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.quad_desert') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/experince5.jpeg" alt="">
+                    <img loading="lazy" src="assets/images/experince5.jpeg" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_e380a8ce82dc9aeee8d9a27c779e4eb7') }}
                         </h3>
@@ -223,7 +223,7 @@
             </div>
             <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.brochure_demi_journee') }}'" style="cursor: pointer;">
                 <div class="card_shara">
-                    <img src="assets/images/excursion-dakhla-4x4_4.jpeg" alt="">
+                    <img loading="lazy" src="assets/images/excursion-dakhla-4x4_4.jpeg" alt="">
                     <div class="card_content px-4 py-4">
                         <h3>{{ __('messages.key_a875c9c7071da4dc558aab956480c224') }}</h3>
                         <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -234,8 +234,8 @@
             </div>
         </div>
     </div>
-    <button class="swipe_btnn left preveise_offer_slide "><img src="assets/images/swipleft.svg" alt=""></button>
-    <button class="swipe_btnn right next_offer_slide"><img src="assets/images/swipright.svg" alt=""></button>
+    <button class="swipe_btnn left preveise_offer_slide "><img loading="lazy" src="assets/images/swipleft.svg" alt=""></button>
+    <button class="swipe_btnn right next_offer_slide"><img loading="lazy" src="assets/images/swipright.svg" alt=""></button>
 </div>
 
 <script>

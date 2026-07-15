@@ -79,7 +79,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             @yield('content')
             <x-mobile />
             <a href="https://wa.me/+212600127223" class="float" target="_blank">
-            <img src="{{ asset('assets/images/whatsapp.png') }}" class="my-float" alt="">
+            <img loading="lazy" src="{{ asset('assets/images/whatsapp.png') }}" class="my-float" alt="">
             </a>
         </main>
         <x-footer />

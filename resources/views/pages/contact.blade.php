@@ -25,10 +25,10 @@
                     <div class="reseaux__sociaux">
                         <span>{{ __('messages.Follow_us') }}</span>
                         <a target="_blank" href="https://www.instagram.com/dakhla_beyond_adventure?igsh=YXl5ZDV1bzR2ZXB6&utm_source=qr" aria-label="Follow us on LinkedIn">
-                            <img src="assets/images/instagram1.svg" alt="instagram dakhla beyond adventure">
+                            <img loading="lazy" src="assets/images/instagram1.svg" alt="instagram dakhla beyond adventure">
                         </a>
                         <a target="_blank" href="https://www.instagram.com/dakhla_beyond_adventure?igsh=YXl5ZDV1bzR2ZXB6&utm_source=qr" aria-label="Follow us on LinkedIn">
-                            <img src="assets/images/facebook_icon.svg" alt="instagram dakhla beyond adventure">
+                            <img loading="lazy" src="assets/images/facebook_icon.svg" alt="instagram dakhla beyond adventure">
                         </a>
                     </div>
                 </div>

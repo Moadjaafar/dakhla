@@ -1,6 +1,6 @@
 <footer>
     <div class="footer_logo_cnt me-5">
-        <img src="assets/images/footer_logo.svg" alt="">
+        <img loading="lazy" src="assets/images/footer_logo.svg" alt="">
         <p>{{ __('messages.key_00ded6f89c6c4cfb2adf977e76bc7c01') }}</p>
     </div>
     <div class="right__footer">
@@ -24,19 +24,19 @@
                 <h4>{{ __('messages.key_6e6c28914ccc84d60b1b0f4e213ca5c5') }}</h4>
                 <div class="paiment_list d-flex justify-content-left align-items-center gap-2">
                     <div class="paiment_iteme">
-                        <img src="assets/images/visa.svg" alt="">
+                        <img loading="lazy" src="assets/images/visa.svg" alt="">
                     </div>
                     <div class="paiment_iteme">
-                        <img src="assets/images/mastercard.svg" alt="">
+                        <img loading="lazy" src="assets/images/mastercard.svg" alt="">
                     </div>
                     <div class="paiment_iteme">
-                        <img src="assets/images/cmicard.png" class="cmi" alt="">
+                        <img loading="lazy" src="assets/images/cmicard.png" class="cmi" alt="">
                     </div>
                 </div>
                 <div class="kayak_partner mt-3">
                     <h4>{{ __('messages.key_find_us_here') }}</h4>
                     <a href="https://www.kayak.fr/" target="_blank" rel="noopener noreferrer">
-                        <img src="assets/images/kayak.png" class="kayak" alt="Kayak">
+                        <img loading="lazy" src="assets/images/kayak.png" class="kayak" alt="Kayak">
                     </a>
                 </div>
             </div>
@@ -46,8 +46,8 @@
                     <div class="d-flex align-items-center gap-3">
                         <span class="cpy_rights">{{ __('messages.key_4c09d67228b48fd2234841277b0c04dc') }}</span>
                         <div class="d-flex gap-2"> 
-                            <a href="https://www.instagram.com/dakhla_beyond_adventure?igsh=YXl5ZDV1bzR2ZXB6&utm_source=qr"><img src="assets/images/intagrame.svg" alt="instagram dakhla beyond adventure"></a>
-                            <a href="https://www.facebook.com/people/Dakhla-Beyond-Adventure/61572250237909/?mibextid=wwXIfr&rdid=kBBe1POnf9d8hJdK&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GwYDoDzGb%2F%3Fmibextid%3DwwXIfr"><img src="assets/images/facebook.svg" alt="facebook dakhla beyond adventure"></a>
+                            <a href="https://www.instagram.com/dakhla_beyond_adventure?igsh=YXl5ZDV1bzR2ZXB6&utm_source=qr"><img loading="lazy" src="assets/images/intagrame.svg" alt="instagram dakhla beyond adventure"></a>
+                            <a href="https://www.facebook.com/people/Dakhla-Beyond-Adventure/61572250237909/?mibextid=wwXIfr&rdid=kBBe1POnf9d8hJdK&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GwYDoDzGb%2F%3Fmibextid%3DwwXIfr"><img loading="lazy" src="assets/images/facebook.svg" alt="facebook dakhla beyond adventure"></a>
                         </div>
                     </div>
                 </div>

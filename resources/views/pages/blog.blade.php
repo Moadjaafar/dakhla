@@ -14,7 +14,7 @@
                         <label for="">{{ __('messages.Search') }}</label>
                         <div class="position-relative input_s__cnt">
                             <input type="text" placeholder="Search articles">
-                            <img src="assets/images/search.svg" alt="">
+                            <img loading="lazy" src="assets/images/search.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -31,11 +31,11 @@
                                     </div>
                                     <div class="news__post--bottom">
                                         <div class="news__post--date">
-                                            <img src="assets/images/calendar.svg" alt="">
+                                            <img loading="lazy" src="assets/images/calendar.svg" alt="">
                                             <span>05/01/2025</span>
                                         </div>
                                         <div class="news__post--vedio">
-                                            <img src="assets/images/blog_img.png" alt="Découvrez Dakhla en Demi-Journée : Une Excursion en 4x4 avec Chauffeur-Guide">
+                                            <img loading="lazy" src="assets/images/blog_img.png" alt="Découvrez Dakhla en Demi-Journée : Une Excursion en 4x4 avec Chauffeur-Guide">
                                         </div>
                                     </div>
                                 </div>
@@ -52,11 +52,11 @@
                                     </div>
                                     <div class="news__post--bottom">
                                         <div class="news__post--date">
-                                            <img src="assets/images/calendar.svg" alt="">
+                                            <img loading="lazy" src="assets/images/calendar.svg" alt="">
                                             <span>22/01/2025</span>
                                         </div>
                                         <div class="news__post--vedio">
-                                            <img src="assets/images/Frame427321440.png" alt="Découvrez Dakhla en Demi-Journée : Une Excursion en 4x4 avec Chauffeur-Guide">
+                                            <img loading="lazy" src="assets/images/Frame427321440.png" alt="Découvrez Dakhla en Demi-Journée : Une Excursion en 4x4 avec Chauffeur-Guide">
                                         </div>
                                     </div>
                                 </div>
@@ -74,11 +74,11 @@
                                     </div>
                                     <div class="news__post--bottom">
                                         <div class="news__post--date">
-                                            <img src="assets/images/calendar.svg" alt="">
+                                            <img loading="lazy" src="assets/images/calendar.svg" alt="">
                                             <span>25/01/2025</span>
                                         </div>
                                         <div class="news__post--vedio">
-                                            <img src="assets/images/blog_three.png" alt="Dakhla Beyond Adventure : Tour en Quad dans le Désert de Dakhla">
+                                            <img loading="lazy" src="assets/images/blog_three.png" alt="Dakhla Beyond Adventure : Tour en Quad dans le Désert de Dakhla">
                                         </div>
                                     </div>
                                 </div>
@@ -96,11 +96,11 @@
                                     </div>
                                     <div class="news__post--bottom">
                                         <div class="news__post--date">
-                                            <img src="assets/images/calendar.svg" alt="">
+                                            <img loading="lazy" src="assets/images/calendar.svg" alt="">
                                             <span>08/02/2025</span>
                                         </div>
                                         <div class="news__post--vedio">
-                                            <img src="assets/images/blog4.jpeg" alt="Dakhla Beyond Adventure : Tour en Quad dans le Désert de Dakhla">
+                                            <img loading="lazy" src="assets/images/blog4.jpeg" alt="Dakhla Beyond Adventure : Tour en Quad dans le Désert de Dakhla">
                                         </div>
                                     </div>
                                 </div>

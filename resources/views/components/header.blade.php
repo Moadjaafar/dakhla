@@ -2,7 +2,7 @@
     <div class="menu_conatiner container">
         <div class="logo_cnt d-flex align-items-center justify-content-between">
             <a href="/">
-                <img src="{{ asset('assets/images/logo.svg') }}" alt="Logo dakhla beyond adventure">
+                <img loading="lazy" src="{{ asset('assets/images/logo.svg') }}" alt="Logo dakhla beyond adventure">
             </a>
         </div>
         <nav class="nav_links">
@@ -16,7 +16,7 @@
         <div class="d-flex align-items-center gap-3">
             <div class="custom-dropdown">
                 <button class="custom-dropdown-toggle">Fr
-                    <img src="{{ asset('assets/images/dropdown.svg') }}" alt="dropdown icon">
+                    <img loading="lazy" src="{{ asset('assets/images/dropdown.svg') }}" alt="dropdown icon">
                 </button>
                 <ul class="custom-dropdown-menu">
                     <li class="custom-dropdown-item"><a href="local/en">En</a></li>
@@ -38,7 +38,7 @@
                 </a>
             </div>
             <div>
-                <button class="togl_menu"  aria-label="Toggle Menu"><img src="{{ asset('assets/images/togl_menu.svg') }}" alt="toggle menu"></button>
+                <button class="togl_menu"  aria-label="Toggle Menu"><img loading="lazy" src="{{ asset('assets/images/togl_menu.svg') }}" alt="toggle menu"></button>
             </div>
         </div>
     </div>

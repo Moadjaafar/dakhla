@@ -2,13 +2,13 @@
     <div class="d-flex align-items-start justify-content-between ">
         <div class="logo_cnt d-flex align-items-center justify-content-between">
             <a href="/index.html">
-            <img src="assets/images/logo.svg" alt="dakhla beyond adventure">
+            <img loading="lazy" src="assets/images/logo.svg" alt="dakhla beyond adventure">
             </a>
         </div>
         <div class="d-flex align-items-center gap-3">
             <div class="custom-dropdown">
                 <button class="custom-dropdown-toggle" aria-label="toggle menu">Fr
-                    <img src="assets/images/dropdown.svg" alt="dropdown icon">
+                    <img loading="lazy" src="assets/images/dropdown.svg" alt="dropdown icon">
                 </button>
                 <ul class="custom-dropdown-menu">
                     <li class="custom-dropdown-item"><a href="local/en">En</a></li>
@@ -17,7 +17,7 @@
                 </ul>
             </div>
             <div>
-                <button class="togl_menu hidemenu" aria-label="menu toggle"><img src="assets/images/close.svg" alt="toggle menu"></button>
+                <button class="togl_menu hidemenu" aria-label="menu toggle"><img loading="lazy" src="assets/images/close.svg" alt="toggle menu"></button>
             </div>
         </div>
     </div>
@@ -25,19 +25,19 @@
         <ul class="mobile_list_links mt-5 mb-5">
             <li class="d-flex justify-content-between align-items-center" onclick="location.href='{{ route('about_us') }}'" style="cursor: pointer;">
                 <a href="{{ route('about_us') }}">{{ __('messages.key_cf23ee279844016288ea1c076638f3be') }}</a> 
-                <img src="assets/images/Frame6543.svg" alt="">
+                <img loading="lazy" src="assets/images/Frame6543.svg" alt="">
             </li>
             <li class="d-flex justify-content-between align-items-center" onclick="location.href='{{ route('offers_lits') }}'" style="cursor: pointer;">
                 <a href="{{ route('offers_lits') }}">{{ __('messages.key_9461bed8b71377318436990e57106729') }}</a>
-                <img src="assets/images/Frame6543.svg" alt="">
+                <img loading="lazy" src="assets/images/Frame6543.svg" alt="">
             </li>
             <li class="d-flex justify-content-between align-items-center" onclick="location.href='{{ route('blog') }}'" style="cursor: pointer;">
                 <a href="{{ route('blog') }}">{{ __('messages.key_be8df1f28c0abc85a0ed0c6860e5d832') }}</a>
-                <img src="assets/images/Frame6543.svg" alt="">
+                <img loading="lazy" src="assets/images/Frame6543.svg" alt="">
             </li>
             <li class="d-flex justify-content-between align-items-center" onclick="location.href='{{ route('contact_us') }}'" style="cursor: pointer;">
                 <a href="{{ route('contact_us') }}">{{ __('messages.key_bbaff12800505b22a853e8b7f4eb6a22') }}</a>
-                <img src="assets/images/Frame6543.svg" alt="">
+                <img loading="lazy" src="assets/images/Frame6543.svg" alt="">
             </li>
         </ul>
         <a href="{{ route('offers_lits') }}" class="me-auto ms-auto ms-sm-0 custom-button custom-buttonv2 custom-m px-sm-3 w-100 justify-content-center" tabindex="0">

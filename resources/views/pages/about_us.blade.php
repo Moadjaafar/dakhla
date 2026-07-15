@@ -9,7 +9,7 @@
     <section class="container py-5">
         <div class="row mx-auto w-100 revers">
             <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
-                <img src="assets/images/experince4.jpeg" class="w-100" alt="Desert adventure in Dakhla" style="border-radius: 12px; object-fit: cover;">
+                <img loading="lazy" src="assets/images/experince4.jpeg" class="w-100" alt="Desert adventure in Dakhla" style="border-radius: 12px; object-fit: cover;">
             </div>
             <div class="col-lg-6 col-md-6 col-12 d-flex flex-column justify-content-center gap-lg-3 gap-3">
                 <span class="shara__tag">{{ __('messages.Dakhla_Beyond_Adventure') }}</span>
@@ -47,7 +47,7 @@
             <div class="swiper-wrapper">
                 <div class="avis__cnt d-flex gap-4 p-4 swiper-slide">
                     <div>
-                        <img src="assets/images/quatation.svg" alt="">
+                        <img loading="lazy" src="assets/images/quatation.svg" alt="">
                     </div>
                     <div>
                         <div class="d-lg-flex d-md-flex d-block justify-content-between align-items-start">
@@ -56,11 +56,11 @@
                                 <span class="period_client">{{ __('messages.client1') }}</span>
                             </div>
                             <div class="stars__cnt">
-                                <img src="assets/images/stare.svg" alt="">
-                                <img src="assets/images/stare.svg" alt="">
-                                <img src="assets/images/stare.svg" alt="">
-                                <img src="assets/images/stare.svg" alt="">
-                                <img src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
                                 <span>4.5</span>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="avis__cnt d-flex gap-4 p-4 swiper-slide">
                     <div>
-                        <img src="assets/images/quatation.svg" alt="">
+                        <img loading="lazy" src="assets/images/quatation.svg" alt="">
                     </div>
                     <div>
                         <div class="d-flex justify-content-between align-items-start">
@@ -78,11 +78,11 @@
                                 <span class="period_client">{{ __('messages.client22') }}</span>
                             </div>
                             <div class="stars__cnt">
-                                <img src="assets/images/stare.svg" alt="">
-                                <img src="assets/images/stare.svg" alt="">
-                                <img src="assets/images/stare.svg" alt="">
-                                <img src="assets/images/stare.svg" alt="">
-                                <img src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
                                 <span>4.5</span>
                             </div>
                         </div>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="avis__cnt d-flex gap-4 p-4 swiper-slide">
                     <div>
-                        <img src="assets/images/quatation.svg" alt="">
+                        <img loading="lazy" src="assets/images/quatation.svg" alt="">
                     </div>
                     <div>
                         <div class="d-flex justify-content-between align-items-start">
@@ -100,11 +100,11 @@
                                 <span class="period_client">{{ __('messages.client33') }}</span>
                             </div>
                             <div class="stars__cnt">
-                                <img src="assets/images/stare.svg" alt="">
-                                <img src="assets/images/stare.svg" alt="">
-                                <img src="assets/images/stare.svg" alt="">
-                                <img src="assets/images/stare.svg" alt="">
-                                <img src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
+                                <img loading="lazy" src="assets/images/stare.svg" alt="">
                                 <span>4.7</span>
                             </div>
                         </div>
@@ -113,8 +113,8 @@
                 </div>
             </div>
             <div class="container d-flex justify-content-between mt-lg-5 mt-md-5 mt-4">
-                <button class="swipev2 preveis_item"><img src="assets/images/circle_swipe_lf.svg" alt=""></button>
-                <button class="swipev2 next_item"><img src="assets/images/circle_swipe_ri.svg" alt=""></button>
+                <button class="swipev2 preveis_item"><img loading="lazy" src="assets/images/circle_swipe_lf.svg" alt=""></button>
+                <button class="swipev2 next_item"><img loading="lazy" src="assets/images/circle_swipe_ri.svg" alt=""></button>
             </div>
         </div>
         
@@ -128,7 +128,7 @@
                 <p>{{ __('messages.paragraphe5') }}</p>
             </div>
             <div class="col-lg-4 col-md-4 col-12 d-flex align-items-center justify-content-center">
-                <button class="play_btn"><img src="assets/images/Group 2.svg" alt=""></button>
+                <button class="play_btn"><img loading="lazy" src="assets/images/Group 2.svg" alt=""></button>
             </div>
         </div>
     </section>
@@ -146,7 +146,7 @@
                                 <span class="img_title">{{ __('messages.QA1') }}</span>
                             </div>
                             <div class="gap__drop gap__dropv2">
-                                <img src="assets/images/dropdownn.svg" alt="">
+                                <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                             </div>
                         </div>
                         <div class="mt-1 description" style="display: none;">
@@ -162,7 +162,7 @@
                                 <span class="img_title">{{ __('messages.QA2') }}</span>
                             </div>
                             <div class="gap__drop gap__dropv2">
-                                <img src="assets/images/dropdownn.svg" alt="">
+                                <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                             </div>
                         </div>
                         <div class="mt-1 description" style="display: none;">
@@ -178,7 +178,7 @@
                                 <span class="img_title">{{ __('messages.QA3') }}</span>
                             </div>
                             <div class="gap__drop gap__dropv2">
-                                <img src="assets/images/dropdownn.svg" alt="">
+                                <img loading="lazy" src="assets/images/dropdownn.svg" alt="">
                             </div>
                         </div>
                         <div class="mt-1 description" style="display: none;">

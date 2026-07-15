@@ -1,8 +1,8 @@
 @extends('layouts.layout')
 @section('content')
     <section class="container_hero">
-        <button class="swipe_btn left  preveise_hero_slide"  aria-label="previous"><img src="assets/images/preveis.svg" alt="previous slide"></button>
-        <button class="swipe_btn right  next_hero_slide"  aria-label="next"><img src="assets/images/next.svg" alt="next slide"></button>
+        <button class="swipe_btn left  preveise_hero_slide"  aria-label="previous"><img loading="lazy" src="assets/images/preveis.svg" alt="previous slide"></button>
+        <button class="swipe_btn right  next_hero_slide"  aria-label="next"><img loading="lazy" src="assets/images/next.svg" alt="next slide"></button>
         <div class="hero-swiper ">
             <div class="swiper-wrapper">
                 <div class="hero_section swiper-slide">
@@ -34,7 +34,7 @@
                                     data-fancybox 
                                     data-caption="Discover the Breathtaking Beaches of Dakhla" 
                                     class="play_btn">
-                                     <img src="assets/images/Group 2.svg" alt="Play Video">
+                                     <img loading="lazy" src="assets/images/Group 2.svg" alt="Play Video">
                                     </a>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                             </div>
                             <div class="col-lg-4 col-md-3 col-12 mt-lg-0 mt-md-0 mt-5">
                                 <div class="d-flex align-items-center justify-content-center h-100">                        
-                                    <button class="play_btn" aria-label="play video"><img src="assets/images/Group 2.svg" alt=""></button>
+                                    <button class="play_btn" aria-label="play video"><img loading="lazy" src="assets/images/Group 2.svg" alt=""></button>
                                 </div>
                             </div>
                         </div>
@@ -117,8 +117,8 @@
             <div class="d-flex align-items-center justify-content-between mb-4">
                 <h2 class="cr_color p_max_xl m-0">{{ __('messages.title3') }}</h2>
                 <div class="d-flex align-items-center gap-3">
-                    <button class="swipe_btnn left prev_activity_slide" aria-label="previous"><img src="assets/images/swipleft.svg" alt="previous"></button>
-                    <button class="swipe_btnn right next_activity_slide" aria-label="next"><img src="assets/images/swipright.svg" alt="next"></button>
+                    <button class="swipe_btnn left prev_activity_slide" aria-label="previous"><img loading="lazy" src="assets/images/swipleft.svg" alt="previous"></button>
+                    <button class="swipe_btnn right next_activity_slide" aria-label="next"><img loading="lazy" src="assets/images/swipright.svg" alt="next"></button>
                 </div>
             </div>
         </div>
@@ -129,39 +129,39 @@
                     <span class="activity_label">Dakhla Experience</span>
                 </a>
                 <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 2" href="assets/images/experince2.jpeg">
-                    <img src="assets/images/experince2.jpeg" alt="Experience 2">
+                    <img loading="lazy" src="assets/images/experince2.jpeg" alt="Experience 2">
                     <span class="activity_label">Experience</span>
                 </a>
                 <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 3" href="assets/images/experince3.jpeg">
-                    <img src="assets/images/experince3.jpeg" alt="Experience 3">
+                    <img loading="lazy" src="assets/images/experince3.jpeg" alt="Experience 3">
                     <span class="activity_label">Experience</span>
                 </a>
                 <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 4" href="assets/images/experince4.jpeg">
-                    <img src="assets/images/experince4.jpeg" alt="Experience 4">
+                    <img loading="lazy" src="assets/images/experince4.jpeg" alt="Experience 4">
                     <span class="activity_label">Experience</span>
                 </a>
                 <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 5" href="assets/images/experince5.jpeg">
-                    <img src="assets/images/experince5.jpeg" alt="Experience 5">
+                    <img loading="lazy" src="assets/images/experince5.jpeg" alt="Experience 5">
                     <span class="activity_label">Experience</span>
                 </a>
                 <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 6" href="assets/images/experince6.jpeg">
-                    <img src="assets/images/experince6.jpeg" alt="Experience 6">
+                    <img loading="lazy" src="assets/images/experince6.jpeg" alt="Experience 6">
                     <span class="activity_label">Experience</span>
                 </a>
                 <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 7" href="assets/images/experince7.jpeg">
-                    <img src="assets/images/experince7.jpeg" alt="Experience 7">
+                    <img loading="lazy" src="assets/images/experince7.jpeg" alt="Experience 7">
                     <span class="activity_label">Experience</span>
                 </a>
                 <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 8" href="assets/images/experince8.jpeg">
-                    <img src="assets/images/experince8.jpeg" alt="Experience 8">
+                    <img loading="lazy" src="assets/images/experince8.jpeg" alt="Experience 8">
                     <span class="activity_label">Experience</span>
                 </a>
                 <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 9" href="assets/images/experince9.jpeg">
-                    <img src="assets/images/experince9.jpeg" alt="Experience 9">
+                    <img loading="lazy" src="assets/images/experince9.jpeg" alt="Experience 9">
                     <span class="activity_label">Experience</span>
                 </a>
                 <a class="swiper-slide activity_slide" data-fancybox="experience" data-caption="Experience 10" href="assets/images/experince10.jpeg">
-                    <img src="assets/images/experince10.jpeg" alt="Experience 10">
+                    <img loading="lazy" src="assets/images/experince10.jpeg" alt="Experience 10">
                     <span class="activity_label">Experience</span>
                 </a>
             </div>
@@ -169,7 +169,7 @@
     </section>
     <section class="sea_section d-flex align-items-center">
         <div class="container column-flex">
-            <img src="assets/images/our_offers_ani.svg" class="my-4" alt="dakhla beyond adventure">
+            <img loading="lazy" src="assets/images/our_offers_ani.svg" class="my-4" alt="dakhla beyond adventure">
                                   
             <h2 class="p_max_xxl text-center">{{ __('messages.Discover_our_Offers_Events') }}</h2>
             <p class="p_max_xxl  text-center">
@@ -182,7 +182,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.kitesurf_dakhla') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/kitesurf-1.jpeg" alt="{{ __('messages.kitesurf_title') }}">
+                        <img loading="lazy" src="assets/images/kitesurf-1.jpeg" alt="{{ __('messages.kitesurf_title') }}">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.kitesurf_title') }}</h3>
                             <p class="light p_sm">{{ __('messages.kitesurf_card_desc') }}
@@ -193,7 +193,7 @@
                 </div>
                 <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.surf_sessions') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/offer7.png" alt="Explorez les vagues de Dakhla avec nos sessions de surf sur-mesure">
+                        <img loading="lazy" src="assets/images/offer7.png" alt="Explorez les vagues de Dakhla avec nos sessions de surf sur-mesure">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_0c8e140b4cb5e4c9bd793446d8a296e4') }}</h3>
                             <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -204,7 +204,7 @@
                 </div>
                 <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.dakhla_4x4') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/offer-4x4.jpeg" alt="Excursion d'une Journée à Dakhla en 4x4">
+                        <img loading="lazy" src="assets/images/offer-4x4.jpeg" alt="Excursion d'une Journée à Dakhla en 4x4">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_5ecf541d66dad225d2e0a60f7ca4a0ef') }}</h3>
                             <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -215,7 +215,7 @@
                 </div>
                 <div class="swiper-slide offer_card  mb-3" onclick="location.href='{{ route('offer.catamaran_grande_baie') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/offer4.png" alt="VOYAGE EN CATAMARAN DANS LA GRANDE BAIE DE DAKHLA">
+                        <img loading="lazy" src="assets/images/offer4.png" alt="VOYAGE EN CATAMARAN DANS LA GRANDE BAIE DE DAKHLA">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_4adf7da9ac4f0c09bf49f129b833b4c3') }}
                             </h3>
@@ -227,7 +227,7 @@
                 </div>
                 <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.dos_chameau_desert') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/experince81.jpeg" alt="Balade à dos de chameau dans le désert de Dakhla">
+                        <img loading="lazy" src="assets/images/experince81.jpeg" alt="Balade à dos de chameau dans le désert de Dakhla">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_780886d385ed8cd3408f9134231e6340') }}
                             </h3>
@@ -239,7 +239,7 @@
                 </div>
                 <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.quad_desert') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/experince5.jpeg" alt="Excursion en Quad dans le Désert de Dakhla">
+                        <img loading="lazy" src="assets/images/experince5.jpeg" alt="Excursion en Quad dans le Désert de Dakhla">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_e380a8ce82dc9aeee8d9a27c779e4eb7') }}
                             </h3>
@@ -251,7 +251,7 @@
                 </div>
                 <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.brochure_demi_journee') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/excursion-dakhla-4x4_4.jpeg" alt="Brochure d'Excursion - Demi-Journée avec Voiture 4x4 et Chauffeur-Guide">
+                        <img loading="lazy" src="assets/images/excursion-dakhla-4x4_4.jpeg" alt="Brochure d'Excursion - Demi-Journée avec Voiture 4x4 et Chauffeur-Guide">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.key_a875c9c7071da4dc558aab956480c224') }}</h3>
                             <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -262,7 +262,7 @@
                 </div>
                 <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.bivouac_imlili') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" alt="Nuit Désert Dakhla – Bivouac Imlili">
+                        <img loading="lazy" src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" alt="Nuit Désert Dakhla – Bivouac Imlili">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.bivouac_breadcrumb') }}</h3>
                             <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -273,7 +273,7 @@
                 </div>
                 <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.sejour_desert') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" alt="Séjour Désert Dakhla Experience">
+                        <img loading="lazy" src="assets/images/DesertNightDakhlaBivouacImlili.jpeg" alt="Séjour Désert Dakhla Experience">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.sejour_breadcrumb') }}</h3>
                             <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -284,7 +284,7 @@
                 </div>
                 <div class="swiper-slide offer_card mb-3" onclick="location.href='{{ route('offer.white_dune_sunset') }}'" style="cursor: pointer;">
                     <div class="card_shara">
-                        <img src="assets/images/excursion-dakhla-4x4_4.jpeg" alt="White Dune Dakhla Sunset Tour">
+                        <img loading="lazy" src="assets/images/excursion-dakhla-4x4_4.jpeg" alt="White Dune Dakhla Sunset Tour">
                         <div class="card_content px-4 py-4">
                             <h3>{{ __('messages.whitedune_breadcrumb') }}</h3>
                             <p class="light p_sm">{{ __('messages.key_c2302ccaaadf62b9cf0a47e1d20d727e') }}
@@ -295,12 +295,12 @@
                 </div>
             </div>
         </div>
-        <button class="swipe_btnn left preveise_offer_slide " aria-label="previous"><img src="assets/images/swipleft.svg" alt=""></button>
-        <button class="swipe_btnn right next_offer_slide" aria-label="next"><img src="assets/images/swipright.svg" alt=""></button>
+        <button class="swipe_btnn left preveise_offer_slide " aria-label="previous"><img loading="lazy" src="assets/images/swipleft.svg" alt=""></button>
+        <button class="swipe_btnn right next_offer_slide" aria-label="next"><img loading="lazy" src="assets/images/swipright.svg" alt=""></button>
     </div>
     <section class="blog_content py-5">
-        <button class="swipe_btn left preveise_img_slide "><img src="assets/images/swipleft.svg" alt=""></button>
-        <button class="swipe_btn right next_img_slide"><img src="assets/images/swipright.svg" alt=""></button>
+        <button class="swipe_btn left preveise_img_slide "><img loading="lazy" src="assets/images/swipleft.svg" alt=""></button>
+        <button class="swipe_btn right next_img_slide"><img loading="lazy" src="assets/images/swipright.svg" alt=""></button>
         <div class="container">
             <div class="section_header d-lg-flex d-md-flex d-block align-items-start justify-content-between mb-5">
                 <div>
@@ -324,22 +324,22 @@
             <div class="blog-swiper ">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide blog_item">
-                    <img src="assets/images/side5.png" class="w-100" alt="dakhla excursions">
+                    <img loading="lazy" src="assets/images/side5.png" class="w-100" alt="dakhla excursions">
                     </div>
                     <div class="swiper-slide blog_item">
-                        <img src="assets/images/side4.png" class="w-100" alt="dakhla excursions">
+                        <img loading="lazy" src="assets/images/side4.png" class="w-100" alt="dakhla excursions">
                     </div>
                     <div class="swiper-slide blog_item">
-                        <img src="assets/images/side3.png" class="w-100" alt="dakhla excursions">
+                        <img loading="lazy" src="assets/images/side3.png" class="w-100" alt="dakhla excursions">
                     </div>
                     <div class="swiper-slide blog_item">
-                        <img src="assets/images/side2.png" class="w-100" alt="dakhla excursions">
+                        <img loading="lazy" src="assets/images/side2.png" class="w-100" alt="dakhla excursions">
                     </div>
                     <div class="swiper-slide blog_item">
-                        <img src="assets/images/side1.png" class="w-100" alt="dakhla excursions">
+                        <img loading="lazy" src="assets/images/side1.png" class="w-100" alt="dakhla excursions">
                     </div>
                     <div class="swiper-slide blog_item">
-                        <img src="assets/images/bg_hero.jpg" class="w-100" alt="dakhla excursions">
+                        <img loading="lazy" src="assets/images/bg_hero.jpg" class="w-100" alt="dakhla excursions">
                     </div>
                 </div>
                 <div class="swiper-pagination position__v"></div>
@@ -368,11 +368,11 @@
                                 </div>
                                 <div class="news__post--bottom">
                                     <div class="news__post--date">
-                                        <img src="assets/images/calendar.svg" alt="">
+                                        <img loading="lazy" src="assets/images/calendar.svg" alt="">
                                         <span>05/01/2025</span>
                                     </div>
                                     <div class="news__post--vedio">
-                                        <img src="assets/images/blog_img.png" alt="">
+                                        <img loading="lazy" src="assets/images/blog_img.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -389,11 +389,11 @@
                                 </div>
                                 <div class="news__post--bottom">
                                     <div class="news__post--date">
-                                        <img src="assets/images/calendar.svg" alt="">
+                                        <img loading="lazy" src="assets/images/calendar.svg" alt="">
                                         <span>22/01/2025</span>
                                     </div>
                                     <div class="news__post--vedio">
-                                        <img src="assets/images/Frame427321440.png" alt="">
+                                        <img loading="lazy" src="assets/images/Frame427321440.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -409,11 +409,11 @@
                                 </div>
                                 <div class="news__post--bottom">
                                     <div class="news__post--date">
-                                        <img src="assets/images/calendar.svg" alt="">
+                                        <img loading="lazy" src="assets/images/calendar.svg" alt="">
                                         <span>25/01/2025</span>
                                     </div>
                                     <div class="news__post--vedio">
-                                        <img src="assets/images/blog_three.png" alt="Dakhla Beyond Adventure : Tour en Quad dans le D�sert de Dakhla">
+                                        <img loading="lazy" src="assets/images/blog_three.png" alt="Dakhla Beyond Adventure : Tour en Quad dans le D�sert de Dakhla">
                                     </div>
                                 </div>
                             </div>
@@ -429,11 +429,11 @@
                                 </div>
                                 <div class="news__post--bottom">
                                     <div class="news__post--date">
-                                        <img src="assets/images/calendar.svg" alt="">
+                                        <img loading="lazy" src="assets/images/calendar.svg" alt="">
                                         <span>08/02/2025</span>
                                     </div>
                                     <div class="news__post--vedio">
-                                        <img src="assets/images/blog4.jpeg" alt="Dakhla Beyond Adventure : Tour en Quad dans le D�sert de Dakhla">
+                                        <img loading="lazy" src="assets/images/blog4.jpeg" alt="Dakhla Beyond Adventure : Tour en Quad dans le D�sert de Dakhla">
                                     </div>
                                 </div>
                             </div>
@@ -451,7 +451,7 @@
       <div class="modal-content">
         <div class="modal-body py-5 px-5 text-center">
             {{-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> --}}
-            <img src="assets/images/Frame427321793.png" class="modal_icon" alt="">
+            <img loading="lazy" src="assets/images/Frame427321793.png" class="modal_icon" alt="">
             <h1 class="titl_modal mt-3">Reservation Confirmed! 🎉</h1>
             <p class="cr_color">Your booking has been successfully completed. You will receive a confirmation email shortly. Thank you!"</p>
         </div>
